@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollapseGroup Component CollapseGroup should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="header-container"
+    >
+      <h3
+        class="title"
+      >
+        title
+      </h3>
+      <ic-add.svg
+        classname="icon"
+      />
+    </div>
+    <div
+      class="content"
+      style="height: 0px; margin-top: 0px;"
+    >
+      <p>
+        content
+      </p>
+    </div>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="header-container"
+    >
+      <h3
+        class="title"
+      >
+        title2
+      </h3>
+      <ic-add.svg
+        classname="icon"
+      />
+    </div>
+    <div
+      class="content"
+      style="height: 0px; margin-top: 0px;"
+    >
+      <p>
+        content2
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+@import 'config.gutters';
+@import 'config.colors';
+@import 'config.media';
+
+.container {
+  margin-bottom: gutter(16);
+  padding-bottom: gutter(16);
+  border-bottom: 0.05rem solid $black;
+  cursor: pointer;
+
+  @include break(xl) {
+    margin-bottom: gutter(24);
+  }
+}
+
+.header-container {
+  position: relative;
+}
+
+.title {
+  width: 90%;
+}
+
+.icon {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  right: 0.6rem;
+  top: 0;
+  color: $black;
+}
+
+.content {
+  overflow: hidden;
+}

@@ -1,0 +1,42 @@
+@import 'config.media';
+@import 'config.gutters';
+@import 'config.colors';
+@import 'config.fonts';
+
+.mobile-container {
+  display: block;
+
+  @include break(md) {
+    display: none;
+  }
+}
+
+.desktop-container {
+  display: none;
+
+  @include break(md) {
+    display: block;
+  }
+}
+
+.progress-bar {
+  bottom: 0;
+  top: unset !important;
+  height: 0.2rem !important;
+}
+
+.progressbar-fill {
+  background: $black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transform-origin: left top;
+}
+
+.count-slides {
+  @include small;
+  margin-top: gutter(8);
+}

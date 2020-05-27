@@ -1,0 +1,88 @@
+@import 'config.colors';
+@import 'config.gutters';
+@import 'config.media';
+
+.wrapper {
+  padding-top: gutter(24);
+  padding-bottom: gutter(24);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: $black;
+  padding: gutter(48) gutter(24) gutter(24) gutter(24);
+
+  @include break(md) {
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: gutter(0);
+    padding-bottom: gutter(0);
+  }
+
+  @include break(xl) {
+    padding-right: gutter(96);
+    padding-left: gutter(96);
+  }
+}
+
+.title-container {
+  flex: 2;
+  height: 100%;
+  background-color: $black;
+  color: $white;
+  margin-bottom: gutter(24);
+
+  @include break(md) {
+    margin-right: gutter(20);
+    margin-bottom: gutter(48);
+    margin-top: gutter(48);
+  }
+
+  @include break(xl) {
+    margin-top: gutter(96);
+    margin-bottom: gutter(96);
+  }
+}
+
+.header {
+  margin-bottom: gutter(24);
+
+  @include break(xl) {
+    margin-bottom: gutter(48);
+  }
+}
+
+.image-section {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  width: 100%;
+  background-color: $black;
+
+  @include break(md) {
+    height: 100%;
+    margin-top: gutter(24);
+    margin-bottom: gutter(24);
+  }
+
+  @include break(xl) {
+    margin-top: gutter(40);
+    margin-bottom: gutter(40);
+  }
+}
+
+.img {
+  width: 22rem;
+  height: 22rem;
+
+  @include break(md) {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  @include break(xl) {
+    width: 40rem;
+    height: 40rem;
+  }
+}

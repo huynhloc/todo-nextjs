@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellerPaymentProcess Component SellerPaymentProcess should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <ic-config.svg
+      classname="logo"
+    />
+    <h3
+      class="title"
+    >
+      Nec porta erat tinc
+    </h3>
+    <p>
+      At elit porta pellentesque aenean. Malesuada non aliquet mauris quisque. Congue enim pellentesque dictumst dictum.
+    </p>
+  </div>
+</div>
+`;

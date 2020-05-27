@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table data component it should match snapshot with string data 1`] = `
+<div>
+  <div
+    class="data-container data-container--white"
+  >
+    <p
+      class="data"
+    >
+      Text
+    </p>
+  </div>
+  <div
+    class="data-container data-container--gray"
+  >
+    <p
+      class="data"
+    >
+      Text
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Table data component it should math snapshot with null data 1`] = `
+<div>
+  <div
+    class="data-container data-container--white"
+  />
+  <div
+    class="data-container data-container--gray"
+  />
+</div>
+`;
+
+exports[`Table data component it should math snapshot with svg icon 1`] = `
+<div>
+  <div
+    class="data-container data-container--white"
+  >
+    <p
+      class="data"
+    >
+      ic-checked.svg
+    </p>
+  </div>
+  <div
+    class="data-container data-container--gray"
+  >
+    <p
+      class="data"
+    >
+      ic-checked.svg
+    </p>
+  </div>
+</div>
+`;

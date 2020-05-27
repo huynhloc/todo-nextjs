@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuGroup Component MenuGroup should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <button
+      class="button button--fixed button--textOnly menu-item-container"
+      type="button"
+    >
+      <div
+        class="button-children"
+      >
+        item1
+      </div>
+    </button>
+    <button
+      class="button button--fixed button--textOnly menu-item-container"
+      type="button"
+    >
+      <div
+        class="button-children"
+      >
+        item2
+      </div>
+    </button>
+    <button
+      class="button button--fixed button--textOnly menu-item-container"
+      type="button"
+    >
+      <div
+        class="button-children"
+      >
+        item3
+      </div>
+    </button>
+    <button
+      class="button button--fixed button--textOnly menu-item-container"
+      type="button"
+    >
+      <div
+        class="button-children"
+      >
+        item4
+      </div>
+    </button>
+    <button
+      class="button button--fixed button--textOnly menu-item-container"
+      type="button"
+    >
+      <div
+        class="button-children"
+      >
+        item5
+      </div>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider Component Slider should match snapshot 1`] = `
+<div>
+  <div
+    class="container container--light"
+  >
+    <img
+      alt="client-avatar"
+      class="avatar"
+      src="client2.jpg"
+    />
+    <p
+      class="client-quote"
+    >
+      "
+      Amet rhoncus commodo san, sagittis enim. Porttitor in cursus eu amet sit.
+      "
+    </p>
+    <p
+      class="client"
+    >
+      Christina
+      ,
+      <br />
+      <span
+        class="client-title"
+      >
+        Product Designer
+         
+        company
+      </span>
+    </p>
+  </div>
+</div>
+`;

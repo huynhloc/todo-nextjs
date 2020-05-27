@@ -1,0 +1,75 @@
+@import 'config.gutters';
+@import 'config.colors';
+@import 'config.media';
+
+.container {
+  padding-top: gutter(48);
+  padding-bottom: gutter(48);
+  background-color: $light-gray;
+
+  @include break(xl) {
+    padding-top: gutter(96);
+    padding-bottom: gutter(96);
+  }
+}
+
+.header-container {
+  margin-bottom: gutter(40);
+
+  @include break(xl) {
+    margin-bottom: gutter(48);
+  }
+}
+
+.slider-container {
+  padding: 0;
+
+  @include break(xl) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  margin-right: gutter(48);
+
+  @include break(xl) {
+    margin-right: gutter(80);
+  }
+
+  &-ifc {
+    width: 25rem;
+
+    @include break(lg) {
+      width: 27.3rem;
+    }
+  }
+  &-aia {
+    width: 12.3rem;
+
+    @include break(lg) {
+      width: 13.3rem;
+    }
+  }
+  &-sf {
+    width: 19.8rem;
+
+    @include break(lg) {
+      width: 21.2rem;
+    }
+  }
+  &-rb {
+    width: 7.9rem;
+
+    @include break(lg) {
+      width: 8.4rem;
+    }
+  }
+}
+
+.img {
+  width: 100%;
+}

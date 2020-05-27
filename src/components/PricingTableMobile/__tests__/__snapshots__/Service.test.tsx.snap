@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Service Component it should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <ic-checked.svg
+      classname="icon"
+    />
+    <p>
+      1
+       
+      Service Listing
+    </p>
+  </div>
+  <div
+    class="container"
+  >
+    <ic-checked.svg
+      classname="icon"
+    />
+    <p>
+      Receive & respond to inquiries
+    </p>
+  </div>
+  <div
+    class="container"
+  >
+    <ic-checked.svg
+      classname="icon"
+    />
+    <p>
+      Email support
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,24 @@
+@import 'config.gutters';
+@import 'config.colors';
+@import 'config.media';
+
+.name {
+  margin-bottom: gutter(8);
+}
+
+.price {
+  margin-bottom: gutter(16);
+  color: $purple;
+}
+
+.description {
+  margin-bottom: gutter(16);
+
+  @include break(md) {
+    margin-bottom: gutter(12);
+  }
+}
+
+.button {
+  margin-bottom: gutter(24);
+}

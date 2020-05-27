@@ -1,0 +1,217 @@
+@import 'config.colors';
+@import 'config.fonts';
+@import 'config.gutters';
+@import 'config.media';
+
+$border-vertical-size: 0.4rem;
+$border-horizontal-size: 0.2rem;
+$grid-template-columns: 22.4rem 1fr 1fr 1fr 1fr;
+$border-color: $black;
+
+.container-wrapper {
+  margin-top: gutter(96);
+  margin-bottom: gutter(96);
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'empty header-1 header-2 header-3 header-4'
+    'services services services services services';
+  grid-template-columns: $grid-template-columns;
+}
+
+.services-container {
+  grid-area: services;
+}
+
+.service-row {
+  display: grid;
+  grid-template-areas: 'content-title content-1 content-2 content-3 content-4';
+  grid-template-columns: $grid-template-columns;
+}
+
+.plan-container {
+  flex: 1;
+  padding-top: gutter(20);
+  padding-left: gutter(20);
+  padding-right: gutter(20);
+  opacity: 0.4;
+
+  &--1 {
+    grid-area: header-1;
+  }
+
+  &--2 {
+    grid-area: header-2;
+  }
+
+  &--3 {
+    grid-area: header-3;
+  }
+
+  &--4 {
+    grid-area: header-4;
+  }
+}
+
+.content-container {
+  cursor: pointer;
+  &--1 {
+    grid-area: content-1;
+  }
+
+  &--2 {
+    grid-area: content-2;
+  }
+
+  &--3 {
+    grid-area: content-3;
+  }
+
+  &--4 {
+    grid-area: content-4;
+  }
+}
+
+.plan-header-container {
+  cursor: pointer;
+}
+
+.header-icon {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.plan-price {
+  color: $purple;
+}
+
+.divider {
+  width: 5.52rem;
+  border: 0.05rem solid $black;
+  margin-top: gutter(20);
+  margin-bottom: gutter(20);
+}
+
+.stared-button {
+  margin-bottom: gutter(32);
+  margin-top: gutter(36);
+  opacity: 0.4;
+
+  &--enable {
+    opacity: 1;
+  }
+}
+.data-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: gutter(12);
+  width: 100%;
+  height: 100%;
+  border-bottom: 0.1rem solid rgba(33, 33, 33, 0.12);
+
+  &--white {
+    background-color: $white;
+  }
+
+  &--gray {
+    background-color: $light-gray;
+  }
+}
+
+.data {
+  @include small;
+  text-align: center;
+}
+
+.service-name {
+  @include small-medium;
+  text-align: left;
+}
+
+.service-header-name {
+  color: $purple;
+}
+
+.service-container {
+  justify-content: flex-start;
+}
+
+.service-header-container {
+  height: 7rem;
+  padding-top: gutter(36);
+}
+
+.data-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: $green;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.control-container {
+  width: 20rem;
+  @include break(xl) {
+    width: 28rem;
+  }
+}
+
+.header {
+  margin-right: gutter(16);
+}
+
+// use div to override the order of scss import
+div.value-container {
+  @include h2;
+}
+
+.dropdown-indicator {
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+.header-link {
+  margin-top: gutter(24);
+}
+
+.header-wrapper {
+  margin-bottom: gutter(40);
+}
+
+.plan {
+  &-header {
+    border-top: $border-vertical-size solid transparent;
+    border-left: $border-horizontal-size solid transparent;
+    border-right: $border-horizontal-size solid transparent;
+
+    &--selected {
+      opacity: 1;
+      border-color: $border-color;
+    }
+  }
+
+  &-content {
+    &--selected {
+      border-left: $border-horizontal-size solid $border-color;
+      border-right: $border-horizontal-size solid $border-color;
+    }
+  }
+
+  &-last-row {
+    border-bottom: $border-vertical-size solid transparent;
+
+    &--selected {
+      border-color: $border-color;
+    }
+  }
+}
+
+.last-service {
+  border-bottom: $border-vertical-size solid transparent;
+}

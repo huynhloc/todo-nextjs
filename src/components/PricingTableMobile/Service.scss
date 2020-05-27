@@ -1,0 +1,21 @@
+@import 'config.gutters';
+@import 'config.colors';
+@import 'config.media';
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: gutter(8);
+  width: 100%;
+
+  @include break(md) {
+    width: 50%;
+  }
+}
+
+.icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: $green;
+  margin-right: gutter(10);
+}

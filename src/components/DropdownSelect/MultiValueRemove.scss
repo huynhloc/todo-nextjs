@@ -1,0 +1,21 @@
+@import 'config.colors';
+@import 'config.gutters';
+
+.icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: $white;
+}
+
+.remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $light-purple;
+  height: 100%;
+  padding-right: gutter(8);
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+  cursor: pointer;
+  margin-right: gutter(4);
+}

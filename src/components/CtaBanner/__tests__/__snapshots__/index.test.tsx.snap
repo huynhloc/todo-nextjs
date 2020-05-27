@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CtaBanner Component CtaBanner should match snapshot 1`] = `
+<div>
+  <div
+    class="container wrapper"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="title-container"
+      >
+        <h2
+          class="header"
+        >
+          Reach a global customer base for your professional services
+        </h2>
+        <button
+          class="button button--fixed button--containedColor button--white"
+          type="button"
+        >
+          <div
+            class="button-children"
+          >
+            Get started
+          </div>
+        </button>
+      </div>
+      <div
+        class="image-section"
+      >
+        <img
+          class="img"
+          src="cta-banner.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

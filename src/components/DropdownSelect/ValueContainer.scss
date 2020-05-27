@@ -1,0 +1,30 @@
+@import 'config.gutters';
+@import 'config.media';
+@import 'config.fonts';
+
+.value-container {
+  @include body;
+  padding: gutter(10) gutter(16) !important;
+  min-height: 4rem;
+
+  @include break(xl) {
+    min-height: 4.8rem;
+    padding: gutter(12) gutter(16) !important;
+  }
+
+  &--multi {
+    flex-wrap: nowrap !important;
+  }
+
+  &--warp-multi {
+    flex-wrap: wrap !important;
+  }
+}
+
+.multi {
+  padding: 0.6rem gutter(16) !important;
+
+  @include break(xl) {
+    padding: gutter(10) gutter(16) !important;
+  }
+}

@@ -1,0 +1,18 @@
+@import 'config.media';
+@import 'config.variables';
+
+.layout-content {
+  min-height: calc(100vh - #{$header-height-sm} - #{$footer-height-sm});
+
+  @include break(md) {
+    min-height: calc(100vh - #{$header-height-md} - #{$footer-height-md});
+  }
+
+  @include break(lg) {
+    min-height: calc(100vh - #{$header-height-lg} - #{$footer-height-lg});
+  }
+
+  @include break(xl) {
+    min-height: calc(100vh - #{$header-height-xl} - #{$footer-height-xl});
+  }
+}

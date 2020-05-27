@@ -1,0 +1,28 @@
+@import 'config.gutters';
+@import 'config.media';
+
+.container {
+  padding-top: gutter(48);
+  padding-bottom: gutter(72);
+
+  @include break(xl) {
+    padding-top: gutter(24);
+    padding-bottom: gutter(96);
+  }
+}
+
+.title-container {
+  margin-bottom: gutter(24);
+
+  @include break(md) {
+    margin-bottom: gutter(24);
+  }
+
+  @include break(xl) {
+    margin-bottom: gutter(48);
+  }
+}
+
+.swiper-slider {
+  height: auto;
+}

@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellerProcessList Component SellerProcessList should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="container header-container"
+    >
+      <h2>
+        Get started in just 
+        3
+         steps
+      </h2>
+    </div>
+    <div
+      class="container desktop-container"
+    >
+      <div
+        class="desktop-container"
+      >
+        <div
+          class="sell-process-container"
+        >
+          <div
+            class="container"
+          >
+            <img
+              alt="process"
+              class="img"
+              src="step1.png"
+            />
+            <h3
+              class="title"
+            >
+              01. Set up your account
+            </h3>
+            <p
+              class="description"
+            >
+              Set up your account with key business information.
+            </p>
+          </div>
+        </div>
+        <div
+          class="sell-process-container"
+        >
+          <div
+            class="container"
+          >
+            <img
+              alt="process"
+              class="img"
+              src="step2.png"
+            />
+            <h3
+              class="title"
+            >
+              02. Complete your profile
+            </h3>
+            <p
+              class="description"
+            >
+              Answer a few simple questions about your services, expertise, and preferences.
+            </p>
+          </div>
+        </div>
+        <div
+          class="sell-process-container"
+        >
+          <div
+            class="container"
+          >
+            <img
+              alt="process"
+              class="img"
+              src="step3.png"
+            />
+            <h3
+              class="title"
+            >
+              03. Create a service
+            </h3>
+            <p
+              class="description"
+            >
+              Offer your professional services and start selling to customers all over the world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container mobile-container"
+    >
+      <div
+        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="swiper-slide sell-process-container"
+          >
+            <div
+              class="container"
+            >
+              <img
+                alt="process"
+                class="img"
+                src="step1.png"
+              />
+              <h3
+                class="title"
+              >
+                01. Set up your account
+              </h3>
+              <p
+                class="description"
+              >
+                Set up your account with key business information.
+              </p>
+            </div>
+          </div>
+          <div
+            class="swiper-slide sell-process-container"
+          >
+            <div
+              class="container"
+            >
+              <img
+                alt="process"
+                class="img"
+                src="step2.png"
+              />
+              <h3
+                class="title"
+              >
+                02. Complete your profile
+              </h3>
+              <p
+                class="description"
+              >
+                Answer a few simple questions about your services, expertise, and preferences.
+              </p>
+            </div>
+          </div>
+          <div
+            class="swiper-slide sell-process-container"
+          >
+            <div
+              class="container"
+            >
+              <img
+                alt="process"
+                class="img"
+                src="step3.png"
+              />
+              <h3
+                class="title"
+              >
+                03. Create a service
+              </h3>
+              <p
+                class="description"
+              >
+                Offer your professional services and start selling to customers all over the world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-pagination swiper-pagination-progressbar progress-bar"
+        >
+          <span
+            class="progressbar-fill"
+            style="webkit-transform: translate3d(0,0,0) scaleX(NaN) scaleY(1); transform: translate3d(0,0,0) scaleX(NaN) scaleY(1); webkit-transition-duration: 300ms; transition-duration: 300ms;"
+          />
+        </div>
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+      <p
+        class="count-slides"
+      >
+        01
+         / 
+        00
+      </p>
+    </div>
+  </div>
+</div>
+`;

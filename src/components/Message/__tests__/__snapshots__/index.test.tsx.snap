@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message Component it should match snapshot 1`] = `
+<div>
+  <div
+    class="container container--error"
+  >
+    <div
+      class="content-container content--error"
+    >
+      Error show message
+    </div>
+  </div>
+</div>
+`;

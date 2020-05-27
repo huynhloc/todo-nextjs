@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellerPaymentProcess Component SellerPaymentProcess should match snapshot 1`] = `
+<div>
+  <div
+    class="container container"
+  >
+    <h2
+      class="title"
+    >
+      Getting paid is now simple and secure
+    </h2>
+    <div
+      class="process-container"
+    >
+      <div
+        class="container"
+      >
+        <ic-mail.svg
+          classname="logo"
+        />
+        <h3
+          class="title"
+        >
+          Pick your price
+        </h3>
+        <p>
+          Take charge of your earnings. With us, you always control your prices.
+        </p>
+      </div>
+      <div
+        class="container"
+      >
+        <ic-language.svg
+          classname="logo"
+        />
+        <h3
+          class="title"
+        >
+          Low transaction fees
+        </h3>
+        <p>
+          Transparent fees designed for teams of all sizes.
+        </p>
+      </div>
+      <div
+        class="container"
+      >
+        <ic-config.svg
+          classname="logo"
+        />
+        <h3
+          class="title"
+        >
+          Get paid fast
+        </h3>
+        <p>
+          Receive your payment within 5-10 days after work is delivered.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

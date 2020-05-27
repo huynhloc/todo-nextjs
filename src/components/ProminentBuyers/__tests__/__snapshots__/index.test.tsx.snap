@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider Component Slider should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="container header-container"
+    >
+      <h2>
+        Trusted by 5000+ businesses
+      </h2>
+    </div>
+    <div
+      class="container slider-container"
+    >
+      <div
+        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="swiper-slide img-container img-container-ifc swiper-slide-duplicate"
+            data-swiper-slide-index="0"
+          >
+            <ic-ifc.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-aia swiper-slide-duplicate"
+            data-swiper-slide-index="1"
+          >
+            <ic-aia.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-sf swiper-slide-duplicate"
+            data-swiper-slide-index="2"
+          >
+            <ic-sf.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-rb swiper-slide-duplicate"
+            data-swiper-slide-index="3"
+          >
+            <ic-rb.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-ifc"
+            data-swiper-slide-index="0"
+          >
+            <ic-ifc.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-aia"
+            data-swiper-slide-index="1"
+          >
+            <ic-aia.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-sf"
+            data-swiper-slide-index="2"
+          >
+            <ic-sf.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-rb"
+            data-swiper-slide-index="3"
+          >
+            <ic-rb.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-ifc swiper-slide-duplicate"
+            data-swiper-slide-index="0"
+          >
+            <ic-ifc.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-aia swiper-slide-duplicate"
+            data-swiper-slide-index="1"
+          >
+            <ic-aia.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-sf swiper-slide-duplicate"
+            data-swiper-slide-index="2"
+          >
+            <ic-sf.svg
+              classname="img"
+            />
+          </div>
+          <div
+            class="swiper-slide img-container img-container-rb swiper-slide-duplicate"
+            data-swiper-slide-index="3"
+          >
+            <ic-rb.svg
+              classname="img"
+            />
+          </div>
+        </div>
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

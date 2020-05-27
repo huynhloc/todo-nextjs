@@ -1,0 +1,62 @@
+@import 'config.gutters';
+@import 'config.colors';
+@import 'config.media';
+
+$benefit-icon-width-sm: 2.4rem;
+$benefit-icon-width-xl: 4.8rem;
+
+.container {
+  display: grid;
+  grid-template-columns: $benefit-icon-width-sm 1fr;
+  column-gap: gutter(16);
+  grid-template-areas:
+    'icon title'
+    'empty description';
+  margin-bottom: gutter(24);
+  row-gap: gutter(4);
+
+  @include break(xl) {
+    grid-template-areas:
+      'icon title'
+      'icon description';
+    grid-template-columns: $benefit-icon-width-xl 1fr;
+    column-gap: gutter(36);
+    margin-bottom: gutter(48);
+  }
+}
+
+.icon {
+  width: $benefit-icon-width-sm;
+  height: $benefit-icon-width-sm;
+  color: $purple;
+  grid-area: icon;
+  align-self: center;
+
+  @include break(xl) {
+    width: $benefit-icon-width-xl;
+    height: $benefit-icon-width-xl;
+    align-self: flex-start;
+  }
+}
+
+.title {
+  grid-area: title;
+  align-self: center;
+
+  @include break(xl) {
+    align-self: flex-start;
+  }
+}
+
+.description {
+  grid-area: description;
+  align-self: center;
+
+  @include break(xl) {
+    min-width: 28.4rem;
+  }
+
+  @include break(xl) {
+    align-self: flex-start;
+  }
+}

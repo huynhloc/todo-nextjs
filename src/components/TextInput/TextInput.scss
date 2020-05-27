@@ -1,0 +1,114 @@
+@import 'config.fonts';
+@import 'config.gutters';
+@import 'config.colors';
+@import 'config.media';
+
+$input-padding-vertical-sm: gutter(10);
+$input-padding-vertical-xl: gutter(12);
+$input-padding-horizontal-sm: gutter(16);
+$input-padding-horizontal-xl: gutter(16);
+
+$password-icon-size-sm: gutter(16);
+$password-icon-size-xl: gutter(24);
+
+$input-height-sm: 4rem;
+$input-height-xl: 4.8rem;
+
+.input-wrapper {
+  width: 100%;
+  min-height: 8rem;
+
+  @include break(xl) {
+    min-height: 8.8rem;
+  }
+}
+
+.label {
+  display: block;
+  @include small-medium;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  @include body;
+  width: 100%;
+  padding: $input-padding-vertical-sm $input-padding-horizontal-sm;
+  border: 0;
+  background-color: $light-gray;
+  height: $input-height-sm;
+
+  @include break(xl) {
+    padding: $input-padding-vertical-xl $input-padding-horizontal-xl;
+    height: $input-height-xl;
+  }
+
+  &-password {
+    padding-right: calc(
+      #{$input-padding-horizontal-sm} + #{$password-icon-size-sm} + 0.5rem
+    );
+    @include break(xl) {
+      padding-right: calc(
+        #{$input-padding-horizontal-xl} + #{$password-icon-size-xl} + 0.5rem
+      );
+    }
+  }
+
+  & ~ .focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background-color: $purple;
+    transition: 0.4s;
+
+    &--error {
+      background-color: $red;
+      width: 100%;
+      left: 0;
+    }
+
+    &--active {
+      background-color: $green;
+      width: 100%;
+      left: 0;
+      transition: 0.4s;
+    }
+  }
+
+  &:focus ~ .focus-border {
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+  }
+}
+
+.message {
+  @include small;
+  color: $gray;
+
+  &--error {
+    color: $red;
+  }
+
+  &--active {
+    color: $green;
+  }
+}
+
+.password-icon {
+  position: absolute;
+  top: calc((#{$input-height-sm} - #{$password-icon-size-sm}) / 2);
+  right: $input-padding-horizontal-sm;
+  width: $password-icon-size-sm;
+
+  @include break(xl) {
+    top: calc((#{$input-height-xl} - #{$password-icon-size-xl}) / 2);
+    right: $input-padding-horizontal-xl;
+    width: $password-icon-size-xl;
+  }
+}

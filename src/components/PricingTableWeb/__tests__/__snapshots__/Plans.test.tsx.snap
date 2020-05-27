@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Plans component it should snapshot 1`] = `
+<div>
+  <div
+    class="plan-container plan-container--1 plan-header plan-header--selected"
+  >
+    <div
+      class="plan-header-container"
+    >
+      <ic-startup.svg
+        classname="header-icon"
+      />
+      <h3
+        class="plan-name"
+      >
+        Startup
+      </h3>
+      <h3
+        class="plan-price"
+      >
+        Free
+      </h3>
+      <div
+        class="divider"
+      />
+      <p>
+        Create a profile and get exposure for your business services
+      </p>
+      <button
+        class="button button--fixed button--containedColor button--purple stared-button stared-button--enable"
+        type="button"
+      >
+        <div
+          class="button-children"
+        >
+          Get started
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    class="plan-container plan-container--2 plan-header"
+  >
+    <div
+      class="plan-header-container"
+    >
+      <ic-professional.svg
+        classname="header-icon"
+      />
+      <h3
+        class="plan-name"
+      >
+        Professional
+      </h3>
+      <h3
+        class="plan-price"
+      >
+        $100/year
+      </h3>
+      <div
+        class="divider"
+      />
+      <p>
+        Create a profile and get exposure for your business services
+      </p>
+      <button
+        class="button button--fixed button--border button--disabled stared-button"
+        disabled=""
+        type="button"
+      >
+        <div
+          class="button-children"
+        >
+          Get started
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    class="plan-container plan-container--3 plan-header"
+  >
+    <div
+      class="plan-header-container"
+    >
+      <ic-studio.svg
+        classname="header-icon"
+      />
+      <h3
+        class="plan-name"
+      >
+        Studio
+      </h3>
+      <h3
+        class="plan-price"
+      >
+        $400/year
+      </h3>
+      <div
+        class="divider"
+      />
+      <p>
+        Create a profile and get exposure for your business services
+      </p>
+      <button
+        class="button button--fixed button--border button--disabled stared-button"
+        disabled=""
+        type="button"
+      >
+        <div
+          class="button-children"
+        >
+          Get started
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    class="plan-container plan-container--4 plan-header"
+  >
+    <div
+      class="plan-header-container"
+    >
+      <ic-rocket.svg
+        classname="header-icon"
+      />
+      <h3
+        class="plan-name"
+      >
+        Growth
+      </h3>
+      <h3
+        class="plan-price"
+      >
+        $900/year
+      </h3>
+      <div
+        class="divider"
+      />
+      <p>
+        Create a profile and get exposure for your business services
+      </p>
+      <button
+        class="button button--fixed button--border button--disabled stared-button"
+        disabled=""
+        type="button"
+      >
+        <div
+          class="button-children"
+        >
+          Get started
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

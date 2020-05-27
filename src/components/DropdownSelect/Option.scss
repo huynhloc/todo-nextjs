@@ -1,0 +1,68 @@
+@import 'config.fonts';
+@import 'config.colors';
+@import 'config.gutters';
+@import 'config.media';
+
+.option-container {
+  padding: gutter(10) gutter(16) !important;
+  display: flex;
+  align-items: center;
+
+  @include break(xl) {
+    padding-top: gutter(12) !important;
+    padding-bottom: gutter(12) !important;
+  }
+}
+
+.option {
+  color: $black !important;
+  background-color: $white !important;
+  padding: 0 !important;
+
+  &:hover {
+    background-color: $light-gray !important;
+  }
+
+  &--selected {
+    color: $purple !important;
+  }
+
+  &--disabled {
+    opacity: 0.24;
+
+    &:hover {
+      background-color: $white !important;
+    }
+  }
+}
+
+.option-text {
+  @include body;
+}
+
+.checkbox {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 0.3rem;
+  border: solid 0.2rem $black;
+  background-color: transparent;
+  margin-right: gutter(12);
+  transition: all 0.3s;
+
+  &--selected {
+    border-color: $purple;
+    background-color: $purple;
+    transition: all 0.3s;
+  }
+}
+
+.checkbox-icon {
+  color: $white;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+  &--selected {
+    opacity: 1;
+    transition: opacity 0.3;
+  }
+}

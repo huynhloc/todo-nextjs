@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabSlider component it should match snapshot 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="container tab-headers-container"
+    >
+      <div
+        class="header header--selected"
+        data-testid="tab-0"
+      >
+        <ic-startup.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-1"
+      >
+        <ic-professional.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-2"
+      >
+        <ic-studio.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-3"
+      >
+        <ic-rocket.svg
+          classname="icon"
+        />
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <p
+            class="swiper-slide"
+          >
+            Item1
+          </p>
+          <p
+            class="swiper-slide"
+          >
+            Item2
+          </p>
+          <p
+            class="swiper-slide"
+          >
+            Item3
+          </p>
+        </div>
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TabSlider component it should match snapshot when click on tab header 1`] = `
+<DocumentFragment>
+  <div
+    class=""
+  >
+    <div
+      class="container tab-headers-container"
+    >
+      <div
+        class="header header--selected"
+        data-testid="tab-0"
+      >
+        <ic-startup.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-1"
+      >
+        <ic-professional.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-2"
+      >
+        <ic-studio.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-3"
+      >
+        <ic-rocket.svg
+          classname="icon"
+        />
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <p
+            class="swiper-slide"
+          >
+            Item1
+          </p>
+          <p
+            class="swiper-slide"
+          >
+            Item2
+          </p>
+          <p
+            class="swiper-slide"
+          >
+            Item3
+          </p>
+        </div>
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TabSlider component it should match snapshot when click on tab header 2`] = `
+<DocumentFragment>
+  <div
+    class=""
+  >
+    <div
+      class="container tab-headers-container"
+    >
+      <div
+        class="header"
+        data-testid="tab-0"
+      >
+        <ic-startup.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header header--selected"
+        data-testid="tab-1"
+      >
+        <ic-professional.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-2"
+      >
+        <ic-studio.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-3"
+      >
+        <ic-rocket.svg
+          classname="icon"
+        />
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+          style="webkit-transition-duration: 300ms; transition-duration: 300ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <p
+            class="swiper-slide"
+          >
+            Item1
+          </p>
+          <p
+            class="swiper-slide"
+          >
+            Item2
+          </p>
+          <p
+            class="swiper-slide"
+          >
+            Item3
+          </p>
+        </div>
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TabSlider component it should match snapshot when set init tab 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="container tab-headers-container"
+    >
+      <div
+        class="header"
+        data-testid="tab-0"
+      >
+        <ic-startup.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header header--selected"
+        data-testid="tab-1"
+      >
+        <ic-professional.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-2"
+      >
+        <ic-studio.svg
+          classname="icon"
+        />
+      </div>
+      <div
+        class="header"
+        data-testid="tab-3"
+      >
+        <ic-rocket.svg
+          classname="icon"
+        />
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <p
+            class="swiper-slide"
+          >
+            Item1
+          </p>
+          <p
+            class="swiper-slide"
+          >
+            Item2
+          </p>
+          <p
+            class="swiper-slide"
+          >
+            Item3
+          </p>
+        </div>
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanHeader component it should snapshot 1`] = `
+<div>
+  <div
+    class="plan-header-container"
+  >
+    <ic-startup.svg
+      classname="header-icon"
+    />
+    <h3
+      class="plan-name"
+    >
+      Startup
+    </h3>
+    <h3
+      class="plan-price"
+    >
+      Free
+    </h3>
+    <div
+      class="divider"
+    />
+    <p>
+      Create a profile and get exposure for your business services
+    </p>
+    <button
+      class="button button--fixed button--border button--disabled stared-button"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="button-children"
+      >
+        Get started
+      </div>
+    </button>
+  </div>
+  <div
+    class="plan-header-container"
+  >
+    <ic-startup.svg
+      classname="header-icon"
+    />
+    <h3
+      class="plan-name"
+    >
+      Startup
+    </h3>
+    <h3
+      class="plan-price"
+    >
+      Free
+    </h3>
+    <div
+      class="divider"
+    />
+    <p>
+      Create a profile and get exposure for your business services
+    </p>
+    <button
+      class="button button--fixed button--containedColor button--purple stared-button stared-button--enable"
+      type="button"
+    >
+      <div
+        class="button-children"
+      >
+        Get started
+      </div>
+    </button>
+  </div>
+</div>
+`;

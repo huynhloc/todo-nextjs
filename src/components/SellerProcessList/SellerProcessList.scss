@@ -1,0 +1,37 @@
+@import 'config.gutters';
+@import 'config.colors';
+@import 'config.media';
+
+.container {
+  background-color: $light-gray;
+  padding-top: gutter(48);
+  padding-bottom: gutter(48);
+
+  @include break(xl) {
+    padding-top: gutter(96);
+    padding-bottom: gutter(96);
+  }
+}
+
+.desktop-container {
+  display: flex;
+
+  & > .sell-process-container {
+    flex: 1;
+    &:not(:first-child) {
+      margin-left: gutter(24);
+
+      @include break(xl) {
+        margin-left: gutter(48);
+      }
+    }
+  }
+}
+
+.header-container {
+  margin-bottom: gutter(32);
+
+  @include break(xl) {
+    margin-bottom: gutter(48);
+  }
+}

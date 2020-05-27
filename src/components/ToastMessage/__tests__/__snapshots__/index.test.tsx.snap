@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToastMessage Component ToastMessage should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <ic-check-circle.svg
+      classname="icon color--success"
+    />
+    <p
+      class="message color--success"
+    >
+      Test message
+    </p>
+    <ic-close.svg
+      classname="icon color--success"
+      data-testid="close-icon"
+    />
+  </div>
+  <div
+    class="container"
+  >
+    <ic-error-circle.svg
+      classname="icon color--error"
+    />
+    <p
+      class="message color--error"
+    >
+      Test message
+    </p>
+    <ic-close.svg
+      classname="icon color--error"
+      data-testid="close-icon"
+    />
+  </div>
+  <div
+    class="container"
+  >
+    <ic-warning.svg
+      classname="icon color--warning"
+    />
+    <p
+      class="message color--warning"
+    >
+      Test message
+    </p>
+    <ic-close.svg
+      classname="icon color--warning"
+      data-testid="close-icon"
+    />
+  </div>
+</div>
+`;

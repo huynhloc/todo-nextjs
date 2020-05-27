@@ -1,0 +1,189 @@
+@import 'font-face';
+@import 'config.media';
+
+$fontPrimary: Poppins, sans-serif;
+
+// font-size
+$fontSize12: 1.2rem;
+$fontSize14: 1.4rem;
+$fontSize16: 1.6rem;
+$fontSize18: 1.8rem;
+$fontSize20: 2rem;
+$fontSize24: 2.4rem;
+$fontSize26: 2.6rem;
+$fontSize32: 3.2rem;
+$fontSize36: 3.6rem;
+$fontSize48: 4.8rem;
+
+// line-height
+$lineHeight16: 1.6rem;
+$lineHeight20: 2rem;
+$lineHeight24: 2.4rem;
+$lineHeight32: 3.2rem;
+$lineHeight36: 3.6rem;
+$lineHeight40: 4rem;
+$lineHeight48: 4.8rem;
+$lineHeight60: 6rem;
+
+// default web font
+@mixin w-h1 {
+  font-weight: 500;
+  font-size: $fontSize36;
+  line-height: $lineHeight48;
+}
+
+@mixin w-h2 {
+  font-weight: 500;
+  font-size: $fontSize36;
+  line-height: $lineHeight48;
+}
+
+@mixin w-h3 {
+  font-weight: 500;
+  font-size: $fontSize20;
+  line-height: $lineHeight32;
+}
+
+@mixin w-body {
+  font-weight: normal;
+  font-size: $fontSize16;
+  line-height: $lineHeight24;
+}
+
+@mixin w-body-medium {
+  font-weight: 500;
+  font-size: $fontSize16;
+  line-height: $lineHeight24;
+}
+
+@mixin w-small {
+  font-weight: normal;
+  font-size: $fontSize12;
+  line-height: $lineHeight20;
+}
+
+@mixin w-small-medium {
+  font-weight: 500;
+  font-size: $fontSize12;
+  line-height: $lineHeight20;
+}
+
+@mixin w-button {
+  font-weight: 500;
+  font-size: $fontSize16;
+  line-height: $lineHeight24;
+}
+
+// default mobile font
+@mixin m-h1 {
+  font-weight: 500;
+  font-size: $fontSize32;
+  line-height: $lineHeight40;
+}
+
+@mixin m-h2 {
+  font-weight: 500;
+  font-size: $fontSize24;
+  line-height: $lineHeight32;
+}
+
+@mixin m-h3 {
+  font-weight: 500;
+  font-size: $fontSize16;
+  line-height: $lineHeight24;
+}
+
+@mixin m-body {
+  font-weight: normal;
+  font-size: $fontSize14;
+  line-height: $lineHeight20;
+}
+
+@mixin m-body-medium {
+  font-weight: 500;
+  font-size: $fontSize14;
+  line-height: $lineHeight20;
+}
+
+@mixin m-small {
+  font-weight: normal;
+  font-size: $fontSize12;
+  line-height: $lineHeight20;
+}
+
+@mixin m-small-medium {
+  font-weight: 500;
+  font-size: $fontSize12;
+  line-height: $lineHeight20;
+}
+
+@mixin m-button {
+  font-weight: 500;
+  font-size: $fontSize14;
+  line-height: $lineHeight20;
+}
+
+// default font style
+@mixin h1 {
+  @include m-h1;
+
+  @include break(xl) {
+    @include w-h1;
+  }
+}
+
+@mixin h2 {
+  @include m-h2;
+
+  @include break(xl) {
+    @include w-h2;
+  }
+}
+
+@mixin h3 {
+  @include m-h3;
+
+  @include break(xl) {
+    @include w-h3;
+  }
+}
+
+@mixin body {
+  @include m-body;
+
+  @include break(xl) {
+    @include w-body;
+  }
+}
+
+@mixin button {
+  @include m-button;
+
+  @include break(xl) {
+    @include w-button;
+  }
+}
+
+@mixin small {
+  @include m-small;
+
+  @include break(xl) {
+    @include w-small;
+  }
+}
+
+@mixin body-medium {
+  @include m-body-medium;
+
+  @include break(xl) {
+    @include w-body-medium;
+  }
+}
+
+@mixin small-medium {
+  @include m-small-medium;
+
+  @include break(xl) {
+    @include w-small-medium;
+  }
+}

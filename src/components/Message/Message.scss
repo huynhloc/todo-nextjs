@@ -1,0 +1,21 @@
+@import 'config.gutters';
+@import 'config.fonts';
+@import 'config.colors';
+
+.container {
+  padding: gutter(8) gutter(16);
+  width: 100%;
+
+  &--error {
+    background-color: $light-red;
+    border: 1px solid $red-border;
+  }
+}
+
+.content {
+  @include small;
+
+  &--error {
+    color: $red;
+  }
+}

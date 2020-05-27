@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellerBanner Component SellerBanner should match snapshot 1`] = `
+<div>
+  <div
+    class="banner-wrapper"
+  >
+    <picture>
+      <source
+        media="(min-width: 960px)"
+        srcset="seller-banner.jpg"
+      />
+      <source
+        media="(min-width: 720px)"
+        srcset="seller-banner-720.jpg"
+      />
+      <img
+        alt="Banner"
+        class="img"
+        src="seller-banner-360.jpg"
+      />
+    </picture>
+    <div
+      class="text-wrapper"
+    >
+      <div
+        class="container text-container"
+      >
+        <h1
+          class="title"
+        >
+          A better way to get more customers and grow your business
+        </h1>
+        <p
+          class="subtitle"
+        >
+          Sell your professional services to the world’s leading enterprises on Intrepid’s exclusive business-to-business e-commerce marketplace
+        </p>
+        <button
+          class="button button--fixed button--containedColor button--white"
+          type="button"
+        >
+          <div
+            class="button-children"
+          >
+            Start selling
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

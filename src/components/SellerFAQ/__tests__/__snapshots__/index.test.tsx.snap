@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellerFAQ Component SellerFAQ should match snapshot 1`] = `
+<div>
+  <div
+    class="container container"
+  >
+    <h2
+      class="header"
+    >
+      FAQ
+    </h2>
+    <div
+      class="FAQ-section"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="header-container"
+        >
+          <h3
+            class="title"
+          >
+            What is Intrepid?
+          </h3>
+          <ic-add.svg
+            classname="icon"
+          />
+        </div>
+        <div
+          class="content"
+          style="height: 0px; margin-top: 0px;"
+        >
+          <p>
+            Intrepid is a global business-to-business e-commerce marketplace to buy and sell professional technology and creative services.
+          </p>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          class="header-container"
+        >
+          <h3
+            class="title"
+          >
+            Who is Intrepid for?
+          </h3>
+          <ic-add.svg
+            classname="icon"
+          />
+        </div>
+        <div
+          class="content"
+          style="height: 0px; margin-top: 0px;"
+        >
+          <p>
+            If you’re a top design, technology, data science or digital marketing studio, we welcome you to start selling your services on the Intrepid marketplace.
+          </p>
+        </div>
+      </div>
+      <div>
+        <p
+          class="help-question"
+        >
+          Can't find what you're looking for?
+        </p>
+        <button
+          class="button button--fixed button--border"
+          type="button"
+        >
+          <div
+            class="button-children"
+          >
+            Help center
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

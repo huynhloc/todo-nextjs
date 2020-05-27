@@ -1,0 +1,25 @@
+@import 'config.fonts';
+@import 'config.colors';
+@import 'config.gutters';
+
+.label {
+  @include body;
+  padding: 0 !important;
+  margin-right: gutter(4);
+  width: fit-content;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &::after {
+    content: ', ';
+  }
+}
+
+.label-wrap {
+  @include small;
+  padding: 0.2rem gutter(8) 0.2rem gutter(12) !important;
+  color: $white !important;
+  background-color: $light-purple;
+  border-top-left-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+}

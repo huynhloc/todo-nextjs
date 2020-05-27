@@ -1,0 +1,2965 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownSelect component Error select math snapshot 1`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label label--error"
+        for="error"
+      >
+        error
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <div
+            class="control dropdown__control css-yk16xz-control"
+          >
+            <div
+              class="value-container value-container--multi dropdown__value-container css-g1d714-ValueContainer"
+            >
+              <div
+                class="dropdown__placeholder css-1wa3eu0-placeholder"
+              >
+                Choose an option
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="error"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-tlfecz-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <input
+            name="error"
+            type="hidden"
+            value=""
+          />
+        </div>
+        <span
+          class="border border--error"
+        />
+      </div>
+      <p
+        class="error-message"
+      >
+        Error message
+      </p>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Error select math snapshot 2`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label label--error"
+        for="error"
+      >
+        error
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <span
+            aria-live="polite"
+            class="css-1laao21-a11yText"
+          >
+            <p
+              id="aria-selection-event"
+            >
+               
+            </p>
+            <p
+              id="aria-context"
+            >
+                option Option 2 focused, 2 of 10. 10 results available. Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu.
+            </p>
+          </span>
+          <div
+            class="control dropdown__control dropdown__control--is-focused dropdown__control--menu-is-open css-1pahdxg-control"
+          >
+            <div
+              class="value-container value-container--multi dropdown__value-container css-g1d714-ValueContainer"
+            >
+              <div
+                class="dropdown__placeholder css-1wa3eu0-placeholder"
+              >
+                Choose an option
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="error"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-1gtu0rj-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1vbk7iu"
+          >
+            <div
+              class="menu-container dropdown__menu css-26l3qy-menu"
+            >
+              <div
+                class="dropdown__menu-list css-1jqbu51-MenuList"
+              >
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-0"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option dropdown__option--is-focused css-1n7v3ny-option"
+                  id="react-select-dropdown-option-1"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--disabled dropdown__option dropdown__option--is-disabled css-165luzk-option"
+                  id="react-select-dropdown-option-2"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-3"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 4
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-4"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 5
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-5"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 6
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-6"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 7
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-7"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 8
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-8"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 9
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-9"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option very long one 10
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input
+            name="error"
+            type="hidden"
+            value=""
+          />
+        </div>
+        <span
+          class="border border--error border--focus"
+        />
+      </div>
+      <p
+        class="error-message"
+      >
+        Error message
+      </p>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Multi select with wrap can select multiple value 1`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="multi-wrap"
+      >
+        multi-wrap
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <span
+            aria-live="polite"
+            class="css-1laao21-a11yText"
+          >
+            <p
+              id="aria-selection-event"
+            >
+               option Option 8, selected.
+            </p>
+            <p
+              id="aria-context"
+            >
+                option Option 2 focused, 2 of 10. 10 results available. Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu.
+            </p>
+          </span>
+          <div
+            class="control dropdown__control dropdown__control--is-focused dropdown__control--menu-is-open css-1pahdxg-control"
+          >
+            <div
+              class="value-container value-container--warp-multi multi dropdown__value-container dropdown__value-container--is-multi dropdown__value-container--has-value css-g1d714-ValueContainer"
+            >
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label-wrap"
+                >
+                  Option 2
+                </div>
+                <div
+                  class="css-xb97g8 multi-container dropdown__multi-value__remove"
+                >
+                  <div
+                    class="remove"
+                  >
+                    <ic-close.svg
+                      classname="icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label-wrap"
+                >
+                  Option 4
+                </div>
+                <div
+                  class="css-xb97g8 multi-container dropdown__multi-value__remove"
+                >
+                  <div
+                    class="remove"
+                  >
+                    <ic-close.svg
+                      classname="icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label-wrap"
+                >
+                  Option 8
+                </div>
+                <div
+                  class="css-xb97g8 multi-container dropdown__multi-value__remove"
+                >
+                  <div
+                    class="remove"
+                  >
+                    <ic-close.svg
+                      classname="icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="multi-wrap"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-1gtu0rj-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1vbk7iu"
+          >
+            <div
+              class="menu-container dropdown__menu css-26l3qy-menu"
+            >
+              <div
+                class="dropdown__menu-list dropdown__menu-list--is-multi css-1jqbu51-MenuList"
+              >
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-0"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-focused dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-1"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--disabled dropdown__option dropdown__option--is-disabled css-165luzk-option"
+                  id="react-select-dropdown-option-2"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-3"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 4
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-4"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 5
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-5"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 6
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-6"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 7
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-7"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 8
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-8"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 9
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-9"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option very long one 10
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="multi-wrap"
+              type="hidden"
+              value="option2"
+            />
+            <input
+              name="multi-wrap"
+              type="hidden"
+              value="option4"
+            />
+            <input
+              name="multi-wrap"
+              type="hidden"
+              value="option8"
+            />
+          </div>
+        </div>
+        <span
+          class="border border--focus"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Multi select with wrap can select multiple value 2`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="multi-wrap"
+      >
+        multi-wrap
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <span
+            aria-live="polite"
+            class="css-1laao21-a11yText"
+          >
+            <p
+              id="aria-selection-event"
+            >
+               option Option 8, selected.
+            </p>
+            <p
+              id="aria-context"
+            >
+                option Option 2 focused, 2 of 10. 10 results available. Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu.
+            </p>
+          </span>
+          <div
+            class="control dropdown__control dropdown__control--is-focused dropdown__control--menu-is-open css-1pahdxg-control"
+          >
+            <div
+              class="value-container value-container--warp-multi multi dropdown__value-container dropdown__value-container--is-multi dropdown__value-container--has-value css-g1d714-ValueContainer"
+            >
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label-wrap"
+                >
+                  Option 2
+                </div>
+                <div
+                  class="css-xb97g8 multi-container dropdown__multi-value__remove"
+                >
+                  <div
+                    class="remove"
+                  >
+                    <ic-close.svg
+                      classname="icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label-wrap"
+                >
+                  Option 4
+                </div>
+                <div
+                  class="css-xb97g8 multi-container dropdown__multi-value__remove"
+                >
+                  <div
+                    class="remove"
+                  >
+                    <ic-close.svg
+                      classname="icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label-wrap"
+                >
+                  Option 8
+                </div>
+                <div
+                  class="css-xb97g8 multi-container dropdown__multi-value__remove"
+                >
+                  <div
+                    class="remove"
+                  >
+                    <ic-close.svg
+                      classname="icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="multi-wrap"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-1gtu0rj-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1vbk7iu"
+          >
+            <div
+              class="menu-container dropdown__menu css-26l3qy-menu"
+            >
+              <div
+                class="dropdown__menu-list dropdown__menu-list--is-multi css-1jqbu51-MenuList"
+              >
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-0"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-focused dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-1"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--disabled dropdown__option dropdown__option--is-disabled css-165luzk-option"
+                  id="react-select-dropdown-option-2"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-3"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 4
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-4"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 5
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-5"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 6
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-6"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 7
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-7"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 8
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-8"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 9
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-9"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option very long one 10
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="multi-wrap"
+              type="hidden"
+              value="option2"
+            />
+            <input
+              name="multi-wrap"
+              type="hidden"
+              value="option4"
+            />
+            <input
+              name="multi-wrap"
+              type="hidden"
+              value="option8"
+            />
+          </div>
+        </div>
+        <span
+          class="border border--focus"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Multi select with wrap match open close snapshot 1`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="multi-wrap"
+      >
+        multi-wrap
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <div
+            class="control dropdown__control css-yk16xz-control"
+          >
+            <div
+              class="value-container value-container--warp-multi multi dropdown__value-container dropdown__value-container--is-multi css-g1d714-ValueContainer"
+            >
+              <div
+                class="dropdown__placeholder css-1wa3eu0-placeholder"
+              >
+                Choose options
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="multi-wrap"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-tlfecz-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="multi-wrap"
+              type="hidden"
+            />
+          </div>
+        </div>
+        <span
+          class="border"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Multi select with wrap match open close snapshot 2`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="multi-wrap"
+      >
+        multi-wrap
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <span
+            aria-live="polite"
+            class="css-1laao21-a11yText"
+          >
+            <p
+              id="aria-selection-event"
+            >
+               
+            </p>
+            <p
+              id="aria-context"
+            >
+                option Option 2 focused, 2 of 10. 10 results available. Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu.
+            </p>
+          </span>
+          <div
+            class="control dropdown__control dropdown__control--is-focused dropdown__control--menu-is-open css-1pahdxg-control"
+          >
+            <div
+              class="value-container value-container--warp-multi multi dropdown__value-container dropdown__value-container--is-multi css-g1d714-ValueContainer"
+            >
+              <div
+                class="dropdown__placeholder css-1wa3eu0-placeholder"
+              >
+                Choose options
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="multi-wrap"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-1gtu0rj-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1vbk7iu"
+          >
+            <div
+              class="menu-container dropdown__menu css-26l3qy-menu"
+            >
+              <div
+                class="dropdown__menu-list dropdown__menu-list--is-multi css-1jqbu51-MenuList"
+              >
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-0"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option dropdown__option--is-focused css-1n7v3ny-option"
+                  id="react-select-dropdown-option-1"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--disabled dropdown__option dropdown__option--is-disabled css-165luzk-option"
+                  id="react-select-dropdown-option-2"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-3"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 4
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-4"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 5
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-5"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 6
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-6"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 7
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-7"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 8
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-8"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 9
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-9"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option very long one 10
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="multi-wrap"
+              type="hidden"
+            />
+          </div>
+        </div>
+        <span
+          class="border border--focus"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Multi select without wrap can select multiple value 1`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="multi-nowrap"
+      >
+        multi-nowrap
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <span
+            aria-live="polite"
+            class="css-1laao21-a11yText"
+          >
+            <p
+              id="aria-selection-event"
+            >
+               option Option 5, selected.
+            </p>
+            <p
+              id="aria-context"
+            >
+                option Option 2 focused, 2 of 10. 10 results available. Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu.
+            </p>
+          </span>
+          <div
+            class="control dropdown__control dropdown__control--is-focused dropdown__control--menu-is-open css-1pahdxg-control"
+          >
+            <div
+              class="value-container value-container--multi dropdown__value-container dropdown__value-container--is-multi dropdown__value-container--has-value css-g1d714-ValueContainer"
+            >
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label"
+                >
+                  Option 2
+                </div>
+              </div>
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label"
+                >
+                  Option 4
+                </div>
+              </div>
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label"
+                >
+                  Option 5
+                </div>
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="multi-nowrap"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-1gtu0rj-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1vbk7iu"
+          >
+            <div
+              class="menu-container dropdown__menu css-26l3qy-menu"
+            >
+              <div
+                class="dropdown__menu-list dropdown__menu-list--is-multi css-1jqbu51-MenuList"
+              >
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-0"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-focused dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-1"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--disabled dropdown__option dropdown__option--is-disabled css-165luzk-option"
+                  id="react-select-dropdown-option-2"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-3"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 4
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-4"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 5
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-5"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 6
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-6"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 7
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-7"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 8
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-8"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 9
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-9"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option very long one 10
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="multi-nowrap"
+              type="hidden"
+              value="option2"
+            />
+            <input
+              name="multi-nowrap"
+              type="hidden"
+              value="option4"
+            />
+            <input
+              name="multi-nowrap"
+              type="hidden"
+              value="option5"
+            />
+          </div>
+        </div>
+        <span
+          class="border border--focus"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Multi select without wrap can select multiple value 2`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="multi-nowrap"
+      >
+        multi-nowrap
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <span
+            aria-live="polite"
+            class="css-1laao21-a11yText"
+          >
+            <p
+              id="aria-selection-event"
+            >
+               option Option 5, selected.
+            </p>
+            <p
+              id="aria-context"
+            >
+                option Option 2 focused, 2 of 10. 10 results available. Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu.
+            </p>
+          </span>
+          <div
+            class="control dropdown__control dropdown__control--is-focused dropdown__control--menu-is-open css-1pahdxg-control"
+          >
+            <div
+              class="value-container value-container--multi dropdown__value-container dropdown__value-container--is-multi dropdown__value-container--has-value css-g1d714-ValueContainer"
+            >
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label"
+                >
+                  Option 2
+                </div>
+              </div>
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label"
+                >
+                  Option 4
+                </div>
+              </div>
+              <div
+                class="css-1rhbuit-multiValue multi-container dropdown__multi-value"
+              >
+                <div
+                  class="label"
+                >
+                  Option 5
+                </div>
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="multi-nowrap"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-1gtu0rj-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1vbk7iu"
+          >
+            <div
+              class="menu-container dropdown__menu css-26l3qy-menu"
+            >
+              <div
+                class="dropdown__menu-list dropdown__menu-list--is-multi css-1jqbu51-MenuList"
+              >
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-0"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-focused dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-1"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--disabled dropdown__option dropdown__option--is-disabled css-165luzk-option"
+                  id="react-select-dropdown-option-2"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-3"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 4
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--selected dropdown__option dropdown__option--is-selected css-9gakcf-option"
+                  id="react-select-dropdown-option-4"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox checkbox--selected"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon checkbox-icon--selected"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 5
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-5"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 6
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-6"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 7
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-7"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 8
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-8"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 9
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-9"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option very long one 10
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="multi-nowrap"
+              type="hidden"
+              value="option2"
+            />
+            <input
+              name="multi-nowrap"
+              type="hidden"
+              value="option4"
+            />
+            <input
+              name="multi-nowrap"
+              type="hidden"
+              value="option5"
+            />
+          </div>
+        </div>
+        <span
+          class="border border--focus"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Multi select without wrap match open close snapshot 1`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="multi-nowrap"
+      >
+        multi-nowrap
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <div
+            class="control dropdown__control css-yk16xz-control"
+          >
+            <div
+              class="value-container value-container--multi dropdown__value-container dropdown__value-container--is-multi css-g1d714-ValueContainer"
+            >
+              <div
+                class="dropdown__placeholder css-1wa3eu0-placeholder"
+              >
+                Choose options
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="multi-nowrap"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-tlfecz-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="multi-nowrap"
+              type="hidden"
+            />
+          </div>
+        </div>
+        <span
+          class="border"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Multi select without wrap match open close snapshot 2`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="multi-nowrap"
+      >
+        multi-nowrap
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <span
+            aria-live="polite"
+            class="css-1laao21-a11yText"
+          >
+            <p
+              id="aria-selection-event"
+            >
+               
+            </p>
+            <p
+              id="aria-context"
+            >
+                option Option 2 focused, 2 of 10. 10 results available. Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu.
+            </p>
+          </span>
+          <div
+            class="control dropdown__control dropdown__control--is-focused dropdown__control--menu-is-open css-1pahdxg-control"
+          >
+            <div
+              class="value-container value-container--multi dropdown__value-container dropdown__value-container--is-multi css-g1d714-ValueContainer"
+            >
+              <div
+                class="dropdown__placeholder css-1wa3eu0-placeholder"
+              >
+                Choose options
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="multi-nowrap"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-1gtu0rj-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1vbk7iu"
+          >
+            <div
+              class="menu-container dropdown__menu css-26l3qy-menu"
+            >
+              <div
+                class="dropdown__menu-list dropdown__menu-list--is-multi css-1jqbu51-MenuList"
+              >
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-0"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option dropdown__option--is-focused css-1n7v3ny-option"
+                  id="react-select-dropdown-option-1"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--disabled dropdown__option dropdown__option--is-disabled css-165luzk-option"
+                  id="react-select-dropdown-option-2"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-3"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 4
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-4"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 5
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-5"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 6
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-6"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 7
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-7"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 8
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-8"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option 9
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-9"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="checkbox"
+                    >
+                      <ic-checked.svg
+                        classname="checkbox-icon"
+                      />
+                    </div>
+                    <div
+                      class="option-text"
+                    >
+                      Option very long one 10
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="multi-nowrap"
+              type="hidden"
+            />
+          </div>
+        </div>
+        <span
+          class="border border--focus"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Single selection can select single value 1`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="single"
+      >
+        single
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <span
+            aria-live="polite"
+            class="css-1laao21-a11yText"
+          >
+            <p
+              id="aria-selection-event"
+            >
+               option Option 4, selected.
+            </p>
+            <p
+              id="aria-context"
+            >
+                 0 results available. Select is focused , press Down to open the menu, 
+            </p>
+          </span>
+          <div
+            class="control dropdown__control dropdown__control--is-focused css-1pahdxg-control"
+          >
+            <div
+              class="value-container value-container--multi dropdown__value-container dropdown__value-container--has-value css-g1d714-ValueContainer"
+            >
+              <div
+                class="single-value dropdown__single-value css-1uccc91-singleValue"
+              >
+                Option 4
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="single"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-1gtu0rj-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <input
+            name="single"
+            type="hidden"
+            value="option4"
+          />
+        </div>
+        <span
+          class="border"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Single selection match snapshot close and open 1`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="single"
+      >
+        single
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <div
+            class="control dropdown__control css-yk16xz-control"
+          >
+            <div
+              class="value-container value-container--multi dropdown__value-container css-g1d714-ValueContainer"
+            >
+              <div
+                class="dropdown__placeholder css-1wa3eu0-placeholder"
+              >
+                Choose an option
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="single"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-tlfecz-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <input
+            name="single"
+            type="hidden"
+            value=""
+          />
+        </div>
+        <span
+          class="border"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`DropdownSelect component Single selection match snapshot close and open 2`] = `
+<DocumentFragment>
+  <form
+    role="form"
+  >
+    <div>
+      <label
+        class="label"
+        for="single"
+      >
+        single
+      </label>
+      <div
+        class="control-container"
+      >
+        <div
+          class=" css-2b097c-container"
+        >
+          <span
+            aria-live="polite"
+            class="css-1laao21-a11yText"
+          >
+            <p
+              id="aria-selection-event"
+            >
+               
+            </p>
+            <p
+              id="aria-context"
+            >
+                option Option 2 focused, 2 of 10. 10 results available. Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu.
+            </p>
+          </span>
+          <div
+            class="control dropdown__control dropdown__control--is-focused dropdown__control--menu-is-open css-1pahdxg-control"
+          >
+            <div
+              class="value-container value-container--multi dropdown__value-container css-g1d714-ValueContainer"
+            >
+              <div
+                class="dropdown__placeholder css-1wa3eu0-placeholder"
+              >
+                Choose an option
+              </div>
+              <input
+                aria-autocomplete="list"
+                class="css-62g3xt-dummyInput"
+                id="single"
+                readonly=""
+                tabindex="0"
+                value=""
+              />
+            </div>
+            <div
+              class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <span />
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-1gtu0rj-indicatorContainer"
+                >
+                  <ic-arrow-down.svg
+                    classname="indicator-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1vbk7iu"
+          >
+            <div
+              class="menu-container dropdown__menu css-26l3qy-menu"
+            >
+              <div
+                class="dropdown__menu-list css-1jqbu51-MenuList"
+              >
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-0"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option dropdown__option--is-focused css-1n7v3ny-option"
+                  id="react-select-dropdown-option-1"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option option--disabled dropdown__option dropdown__option--is-disabled css-165luzk-option"
+                  id="react-select-dropdown-option-2"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-3"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 4
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-4"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 5
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-5"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 6
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-6"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 7
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-7"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 8
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-8"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option 9
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="option dropdown__option css-yt9ioa-option"
+                  id="react-select-dropdown-option-9"
+                  tabindex="-1"
+                >
+                  <div
+                    class="option-container"
+                  >
+                    <div
+                      class="option-text"
+                    >
+                      Option very long one 10
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input
+            name="single"
+            type="hidden"
+            value=""
+          />
+        </div>
+        <span
+          class="border border--focus"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;

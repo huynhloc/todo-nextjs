@@ -1,0 +1,70 @@
+@import 'config.colors';
+@import 'config.fonts';
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: block;
+  @include small-medium;
+}
+
+.dropzone-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  .description {
+    @include small;
+    color: $gray;
+    margin-left: 2.2rem;
+  }
+}
+
+.dropzone {
+  position: relative;
+  width: 14.5rem;
+  height: 14.5rem;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $contained-white;
+
+  .default-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 4rem;
+    .uploadText {
+      @include body-medium;
+      color: $white;
+      text-align: center;
+    }
+  }
+
+  &:hover {
+    .overlay {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.image-uploader {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

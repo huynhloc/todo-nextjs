@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Component Dropdown should match snapshot 1`] = `
+<div>
+  <div
+    class=" css-2b097c-container"
+  >
+    <div
+      class="dropdown-container dropdown__control css-yk16xz-control"
+    >
+      <div
+        class="value-container dropdown__value-container dropdown__value-container--has-value css-g1d714-ValueContainer"
+      >
+        <div
+          class="single-select dropdown__single-value css-1uccc91-singleValue"
+        >
+          key1
+        </div>
+        <input
+          aria-autocomplete="list"
+          class="css-62g3xt-dummyInput"
+          id="react-select-dropdown-input"
+          readonly=""
+          tabindex="0"
+          value=""
+        />
+      </div>
+      <div
+        class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+      >
+        <span />
+        <div>
+          <div
+            aria-hidden="true"
+            class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-tlfecz-indicatorContainer"
+          >
+            <ic-arrow-down.svg
+              classname="indicator-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

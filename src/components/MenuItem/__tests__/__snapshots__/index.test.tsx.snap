@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem Component MenuItem should match snapshot 1`] = `
+<div>
+  <button
+    class="button button--fixed button--textOnly menu-item-container"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      item1
+    </div>
+  </button>
+</div>
+`;

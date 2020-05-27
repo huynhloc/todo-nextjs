@@ -1,0 +1,13 @@
+@import 'config.colors';
+@import 'config.gutters';
+
+.dropdown-indicator-container {
+  padding-left: gutter(12) !important;
+  padding-right: gutter(12) !important;
+}
+
+.indicator-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: $black;
+}

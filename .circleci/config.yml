@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dep-{{ checksum "yarn.lock" }}
+
+      - run: yarn install
+
+      - save_cache:
+          key: v1-dep-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+            - ./node_modules
+
+      - run:
+          name: Run eslint
+          command: yarn eslint:check
+
+      - run:
+          name: Run test
+          command: yarn test

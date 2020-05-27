@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellerProcess Component SellerProcess should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <img
+      alt="process"
+      class="img"
+      src="step1.png"
+    />
+    <h3
+      class="title"
+    >
+      01. Nec porta erat tinc
+    </h3>
+    <p
+      class="description"
+    >
+      In in ultricies eget quam suspendisse metus. Fringilla in vulputate malesuada interdum. Pulvinar eget tempor
+    </p>
+  </div>
+</div>
+`;

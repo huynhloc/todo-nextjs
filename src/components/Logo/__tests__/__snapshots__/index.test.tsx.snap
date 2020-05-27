@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Component Logo should match snapshot 1`] = `
+<div>
+  <ic-logo.svg
+    classname="logo--dark"
+    height="10"
+    width="10"
+  />
+  <ic-logo.svg
+    classname="logo--dark"
+    height="27"
+    width="100"
+  />
+  <ic-logo.svg
+    classname="logo--light"
+    height="27"
+    width="100"
+  />
+</div>
+`;

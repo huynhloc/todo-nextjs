@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast context Toast context should match snapshot 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+  <div>
+    Test for toast
+  </div>
+</div>
+`;
+
+exports[`Toast context Toast context should show Toast close message 1`] = `
+<DocumentFragment>
+  <div
+    class="Toastify"
+  >
+    <div
+      class="Toastify__toast-container Toastify__toast-container--top-center toast-container"
+    >
+      <div
+        class="Toastify__toast Toastify__toast--default toast toast--warning"
+        style=""
+      >
+        <div
+          class="Toastify__toast-body toast-body"
+          role="alert"
+        >
+          <div
+            class="container"
+          >
+            <ic-warning.svg
+              classname="icon color--warning"
+            />
+            <p
+              class="message color--warning"
+            >
+              Warning
+            </p>
+            <ic-close.svg
+              classname="icon color--warning"
+              data-testid="close-icon"
+            />
+          </div>
+        </div>
+        <div
+          class="Toastify__progress-bar Toastify__progress-bar--animated Toastify__progress-bar--default"
+          style="animation-duration: 5000ms; animation-play-state: running; opacity: 0;"
+        />
+      </div>
+    </div>
+  </div>
+  <div>
+    Test for toast
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Toast context Toast context should show Toast close message 2`] = `
+<DocumentFragment>
+  <div
+    class="Toastify"
+  >
+    <div
+      class="Toastify__toast-container Toastify__toast-container--top-center toast-container"
+      style="pointer-events: none;"
+    >
+      <div
+        class="Toastify__toast Toastify__toast--default toast toast--warning Toastify__slide-exit--top-center"
+        style="animation-fill-mode: forwards; animation-duration: 0.75s;"
+      >
+        <div
+          class="Toastify__toast-body toast-body"
+        >
+          <div
+            class="container"
+          >
+            <ic-warning.svg
+              classname="icon color--warning"
+            />
+            <p
+              class="message color--warning"
+            >
+              Warning
+            </p>
+            <ic-close.svg
+              classname="icon color--warning"
+              data-testid="close-icon"
+            />
+          </div>
+        </div>
+        <div
+          class="Toastify__progress-bar Toastify__progress-bar--animated Toastify__progress-bar--default"
+          style="animation-duration: 5000ms; animation-play-state: running; opacity: 0;"
+        />
+      </div>
+    </div>
+  </div>
+  <div>
+    Test for toast
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Toast context Toast context should show Toast error message 1`] = `
+<DocumentFragment>
+  <div
+    class="Toastify"
+  >
+    <div
+      class="Toastify__toast-container Toastify__toast-container--top-center toast-container"
+    >
+      <div
+        class="Toastify__toast Toastify__toast--default toast toast--error"
+        style=""
+      >
+        <div
+          class="Toastify__toast-body toast-body"
+          role="alert"
+        >
+          <div
+            class="container"
+          >
+            <ic-error-circle.svg
+              classname="icon color--error"
+            />
+            <p
+              class="message color--error"
+            >
+              Error
+            </p>
+            <ic-close.svg
+              classname="icon color--error"
+              data-testid="close-icon"
+            />
+          </div>
+        </div>
+        <div
+          class="Toastify__progress-bar Toastify__progress-bar--animated Toastify__progress-bar--default"
+          style="animation-duration: 5000ms; animation-play-state: running; opacity: 0;"
+        />
+      </div>
+    </div>
+  </div>
+  <div>
+    Test for toast
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Toast context Toast context should show Toast show success message 1`] = `
+<DocumentFragment>
+  <div
+    class="Toastify"
+  >
+    <div
+      class="Toastify__toast-container Toastify__toast-container--top-center toast-container"
+    >
+      <div
+        class="Toastify__toast Toastify__toast--default toast toast--success"
+        style=""
+      >
+        <div
+          class="Toastify__toast-body toast-body"
+          role="alert"
+        >
+          <div
+            class="container"
+          >
+            <ic-check-circle.svg
+              classname="icon color--success"
+            />
+            <p
+              class="message color--success"
+            >
+              Success
+            </p>
+            <ic-close.svg
+              classname="icon color--success"
+              data-testid="close-icon"
+            />
+          </div>
+        </div>
+        <div
+          class="Toastify__progress-bar Toastify__progress-bar--animated Toastify__progress-bar--default"
+          style="animation-duration: 5000ms; animation-play-state: running; opacity: 0;"
+        />
+      </div>
+    </div>
+  </div>
+  <div>
+    Test for toast
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Toast context Toast context should show Toast warning message 1`] = `
+<DocumentFragment>
+  <div
+    class="Toastify"
+  >
+    <div
+      class="Toastify__toast-container Toastify__toast-container--top-center toast-container"
+    >
+      <div
+        class="Toastify__toast Toastify__toast--default toast toast--warning"
+        style=""
+      >
+        <div
+          class="Toastify__toast-body toast-body"
+          role="alert"
+        >
+          <div
+            class="container"
+          >
+            <ic-warning.svg
+              classname="icon color--warning"
+            />
+            <p
+              class="message color--warning"
+            >
+              Warning
+            </p>
+            <ic-close.svg
+              classname="icon color--warning"
+              data-testid="close-icon"
+            />
+          </div>
+        </div>
+        <div
+          class="Toastify__progress-bar Toastify__progress-bar--animated Toastify__progress-bar--default"
+          style="animation-duration: 5000ms; animation-play-state: running; opacity: 0;"
+        />
+      </div>
+    </div>
+  </div>
+  <div>
+    Test for toast
+  </div>
+</DocumentFragment>
+`;

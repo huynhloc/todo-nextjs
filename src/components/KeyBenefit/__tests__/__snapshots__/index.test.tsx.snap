@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KeyBenefit Component KeyBenefit should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <ic-cashflow.svg
+      classname="icon"
+    />
+    <h3
+      class="title"
+    >
+      Item
+    </h3>
+    <p
+      class="description"
+    >
+      Item description
+    </p>
+  </div>
+</div>
+`;

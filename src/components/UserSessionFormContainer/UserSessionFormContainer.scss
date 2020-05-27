@@ -1,0 +1,35 @@
+@import 'config.media';
+@import 'config.gutters';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-top: gutter(48);
+  padding-bottom: gutter(48);
+  justify-content: space-around;
+
+  @include break(lg) {
+    padding-top: gutter(96);
+    padding-bottom: gutter(192);
+  }
+}
+
+.desktop-only {
+  display: none;
+
+  @include break(lg) {
+    display: block;
+  }
+}
+
+.img {
+  width: 43rem;
+}
+
+.form-section {
+  width: 100%;
+
+  @include break(lg) {
+    width: 34rem;
+  }
+}

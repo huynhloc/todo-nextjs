@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KeyBenefit Component KeyBenefit should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="container header-container"
+    >
+      <h2>
+        Set your business up for success with an Intrepid membership
+      </h2>
+    </div>
+    <div
+      class="container desktop-container"
+    >
+      <div
+        class="desktop-benefit-container"
+      >
+        <div
+          class="row-container"
+        >
+          <div>
+            <div
+              class="container"
+            >
+              <ic-cashflow.svg
+                classname="icon"
+              />
+              <h3
+                class="title"
+              >
+                Get more customers
+              </h3>
+              <p
+                class="description"
+              >
+                Reach a global customer base and enjoy a steady flow of high-value clients all year round.
+              </p>
+            </div>
+            <div
+              class="container"
+            >
+              <ic-community.svg
+                classname="icon"
+              />
+              <h3
+                class="title"
+              >
+                Verified client reviews
+              </h3>
+              <p
+                class="description"
+              >
+                Become a trusted seller and drive future sales with verified reviews from top-tier enterprises.
+              </p>
+            </div>
+            <div
+              class="container"
+            >
+              <ic-growth.svg
+                classname="icon"
+              />
+              <h3
+                class="title"
+              >
+                Fast payments
+              </h3>
+              <p
+                class="description"
+              >
+                Get paid quickly and easily, even across international borders with automated invoice processing, payments, and escrow.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row-container"
+        >
+          <div>
+            <div
+              class="container"
+            >
+              <ic-portfolio.svg
+                classname="icon"
+              />
+              <h3
+                class="title"
+              >
+                Join an exclusive community
+              </h3>
+              <p
+                class="description"
+              >
+                Learn from leading entrepreneurs, creatives, and cutting-edge technologists from around the world.
+              </p>
+            </div>
+            <div
+              class="container"
+            >
+              <ic-business.svg
+                classname="icon"
+              />
+              <h3
+                class="title"
+              >
+                Work the way you want
+              </h3>
+              <p
+                class="description"
+              >
+                Spend less time searching for customers and more time focusing on projects you love.
+              </p>
+            </div>
+            <div
+              class="container"
+            >
+              <ic-impact.svg
+                classname="icon"
+              />
+              <h3
+                class="title"
+              >
+                Customer analytics
+              </h3>
+              <p
+                class="description"
+              >
+                Access powerful analytics and lead generation tools to better understand your customers and attract bigger clients.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container mobile-container"
+    >
+      <div
+        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="swiper-slide row-container"
+          >
+            <div>
+              <div
+                class="container"
+              >
+                <ic-cashflow.svg
+                  classname="icon"
+                />
+                <h3
+                  class="title"
+                >
+                  Get more customers
+                </h3>
+                <p
+                  class="description"
+                >
+                  Reach a global customer base and enjoy a steady flow of high-value clients all year round.
+                </p>
+              </div>
+              <div
+                class="container"
+              >
+                <ic-community.svg
+                  classname="icon"
+                />
+                <h3
+                  class="title"
+                >
+                  Verified client reviews
+                </h3>
+                <p
+                  class="description"
+                >
+                  Become a trusted seller and drive future sales with verified reviews from top-tier enterprises.
+                </p>
+              </div>
+              <div
+                class="container"
+              >
+                <ic-growth.svg
+                  classname="icon"
+                />
+                <h3
+                  class="title"
+                >
+                  Fast payments
+                </h3>
+                <p
+                  class="description"
+                >
+                  Get paid quickly and easily, even across international borders with automated invoice processing, payments, and escrow.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide row-container"
+          >
+            <div>
+              <div
+                class="container"
+              >
+                <ic-portfolio.svg
+                  classname="icon"
+                />
+                <h3
+                  class="title"
+                >
+                  Join an exclusive community
+                </h3>
+                <p
+                  class="description"
+                >
+                  Learn from leading entrepreneurs, creatives, and cutting-edge technologists from around the world.
+                </p>
+              </div>
+              <div
+                class="container"
+              >
+                <ic-business.svg
+                  classname="icon"
+                />
+                <h3
+                  class="title"
+                >
+                  Work the way you want
+                </h3>
+                <p
+                  class="description"
+                >
+                  Spend less time searching for customers and more time focusing on projects you love.
+                </p>
+              </div>
+              <div
+                class="container"
+              >
+                <ic-impact.svg
+                  classname="icon"
+                />
+                <h3
+                  class="title"
+                >
+                  Customer analytics
+                </h3>
+                <p
+                  class="description"
+                >
+                  Access powerful analytics and lead generation tools to better understand your customers and attract bigger clients.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-pagination swiper-pagination-progressbar progress-bar"
+        >
+          <span
+            class="progressbar-fill"
+            style="webkit-transform: translate3d(0,0,0) scaleX(NaN) scaleY(1); transform: translate3d(0,0,0) scaleX(NaN) scaleY(1); webkit-transition-duration: 300ms; transition-duration: 300ms;"
+          />
+        </div>
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+      <p
+        class="count-slides"
+      >
+        01
+         / 
+        00
+      </p>
+    </div>
+  </div>
+</div>
+`;

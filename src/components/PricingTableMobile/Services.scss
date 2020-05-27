@@ -1,0 +1,28 @@
+@import 'config.gutters';
+@import 'config.colors';
+@import 'config.fonts';
+@import 'config.media';
+
+.service-container {
+  padding-top: gutter(16);
+  padding-bottom: gutter(8);
+  border-top: 0.05rem solid $light-gray-border;
+}
+
+.header {
+  @include body-medium;
+  color: $purple;
+  margin-bottom: gutter(8);
+}
+
+.sub-service-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  @include break(md) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

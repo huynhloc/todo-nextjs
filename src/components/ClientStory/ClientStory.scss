@@ -1,0 +1,87 @@
+@import 'config.colors';
+@import 'config.gutters';
+@import 'config.fonts';
+@import 'config.media';
+
+$avatar-width-md: 15rem;
+$avatar-width-xl: 24.4rem;
+
+$padding-left-client-quote-sm: gutter(16);
+$padding-left-client-quote-md: gutter(20);
+$padding-left-client-quote-xl: gutter(32);
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  &--light {
+    background-color: $light-gray;
+    color: $black;
+  }
+
+  &--dark {
+    background-color: $black;
+    color: $white;
+  }
+
+  @include break(md) {
+    flex-direction: row;
+  }
+}
+
+.avatar {
+  width: 100%;
+  object-fit: contain;
+
+  @include break(md) {
+    object-fit: cover;
+    width: $avatar-width-md;
+    height: 21.6rem;
+    object-position: center;
+  }
+
+  @include break(xl) {
+    width: $avatar-width-xl;
+    height: 24rem;
+  }
+}
+
+.client-quote {
+  font-weight: 500;
+  padding: $padding-left-client-quote-sm gutter(16) gutter(84) gutter(16);
+  min-height: 10rem;
+
+  @include break(md) {
+    padding-left: $padding-left-client-quote-md;
+  }
+
+  @include break(xl) {
+    padding-left: $padding-left-client-quote-xl;
+    padding-top: gutter(24);
+    padding-right: gutter(32);
+  }
+}
+
+.client {
+  position: absolute;
+  bottom: gutter(8);
+  left: $padding-left-client-quote-sm;
+  right: gutter(16);
+  min-width: 22rem;
+  @include small-medium;
+
+  @include break(md) {
+    left: calc(#{$padding-left-client-quote-md} + #{$avatar-width-md});
+  }
+
+  @include break(xl) {
+    left: calc(#{$padding-left-client-quote-xl} + #{$avatar-width-xl});
+    bottom: gutter(24);
+    right: gutter(32);
+  }
+}
+
+.client-title {
+  @include small;
+}

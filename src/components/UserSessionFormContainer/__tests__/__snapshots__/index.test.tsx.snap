@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserSessionFormContainer Component it should match snapshot 1`] = `
+<div>
+  <div
+    class="container container"
+  >
+    <div
+      class="desktop-only"
+    >
+      <img
+        class="img"
+        src="session-form.png"
+      />
+    </div>
+    <div
+      class="form-section"
+    >
+      <h2>
+        Test form
+      </h2>
+      <input
+        type="text"
+        value="test value"
+      />
+    </div>
+  </div>
+</div>
+`;

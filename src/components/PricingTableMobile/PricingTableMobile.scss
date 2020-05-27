@@ -1,0 +1,18 @@
+@import 'config.gutters';
+@import 'config.colors';
+
+.content-container {
+  padding-top: gutter(24);
+  padding-bottom: gutter(32);
+  background-color: $light-gray;
+  border-top: 0.5px solid $light-gray-border;
+}
+
+.header-container {
+  margin-top: gutter(48);
+}
+
+.link {
+  margin-top: gutter(12);
+  margin-bottom: gutter(24);
+}

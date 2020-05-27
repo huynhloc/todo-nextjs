@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HyperLink Component HyperLink should match snapshot 1`] = `
+<div>
+  <a
+    class="link link--white link--hover"
+    href="https://google.com"
+  >
+    External Link
+  </a>
+  <a
+    class="link link--white link--hover"
+    href="/about"
+  >
+    Internal Link
+  </a>
+  <a
+    class="link link--purple link--hover"
+    href="/about"
+  >
+    Internal Link
+  </a>
+  <a
+    class="link link--purple"
+    href="/about"
+  >
+    Internal Link
+  </a>
+  <a
+    class="link link--purple link--underline"
+    href="/about"
+  >
+    Internal Link
+  </a>
+  <a
+    class="link link--purple link--hover link--underline"
+    href="/about"
+  >
+    Internal Link
+  </a>
+  <a
+    class="link link--white link--hover link--underline"
+    href="/about"
+  >
+    Internal Link
+  </a>
+</div>
+`;

@@ -1,0 +1,24 @@
+@import 'config.media';
+@import 'config.gutters';
+@import 'config.variables';
+
+.container {
+  margin: 0 auto;
+  padding: 0 gutter(24);
+  max-width: $container-width-xs;
+
+  @include break(md) {
+    max-width: $container-width-sm;
+    padding: 0 gutter(24);
+  }
+
+  @include break(lg) {
+    max-width: $container-width-lg;
+    padding: 0 gutter(40);
+  }
+
+  @include break(xl) {
+    max-width: $container-width-xl;
+    padding: 0 gutter(40);
+  }
+}

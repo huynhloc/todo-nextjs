@@ -1,0 +1,38 @@
+@import 'config.gutters';
+@import 'config.fonts';
+@import 'config.media';
+
+.container {
+  margin-top: gutter(48);
+  margin-bottom: gutter(48);
+
+  @include break(md) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @include break(xl) {
+    margin-top: gutter(96);
+    margin-bottom: gutter(96);
+  }
+}
+
+.header {
+  margin-bottom: gutter(32);
+
+  @include break(md) {
+    width: 10%;
+  }
+}
+
+.help-question {
+  margin-top: gutter(40);
+  margin-bottom: gutter(8);
+  @include small;
+}
+
+.FAQ-section {
+  @include break(md) {
+    width: 70%;
+  }
+}

@@ -1,0 +1,14 @@
+@import 'config.fonts';
+@import 'config.colors';
+@import 'config.gutters';
+
+.clear-option {
+  @include body;
+  color: $black;
+  background-color: $white;
+  padding: gutter(12) gutter(16);
+
+  &:hover {
+    background-color: $light-gray;
+  }
+}

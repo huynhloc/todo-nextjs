@@ -1,0 +1,35 @@
+@import 'config.fonts';
+@import 'config.gutters';
+@import 'config.colors';
+
+.container {
+  display: flex;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.message {
+  flex: 1;
+  font-family: $fontPrimary;
+  @include small;
+  margin-left: gutter(8);
+  margin-right: gutter(8);
+  align-self: center;
+}
+
+.color {
+  &--success {
+    color: $toast-success-text;
+  }
+
+  &--error {
+    color: $toast-error-text;
+  }
+
+  &--warning {
+    color: $toast-warning-text;
+  }
+}

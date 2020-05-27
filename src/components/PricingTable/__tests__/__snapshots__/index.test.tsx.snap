@@ -1,0 +1,1710 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PricingTable Component it should match snapshot 1`] = `
+<div>
+  <div
+    class="mobile"
+  >
+    <div>
+      <div
+        class="container header-container"
+      >
+        <h2>
+          Choosing a plan for your business
+        </h2>
+        <a
+          class="link link--purple"
+          href=""
+        >
+          <p
+            class="link"
+          >
+            Enterprise? Contact us for a custom solution
+          </p>
+        </a>
+      </div>
+      <div
+        class=""
+      >
+        <div
+          class="container tab-headers-container"
+        >
+          <div
+            class="header"
+            data-testid="tab-0"
+          >
+            <ic-startup.svg
+              classname="icon"
+            />
+          </div>
+          <div
+            class="header header--selected"
+            data-testid="tab-1"
+          >
+            <ic-professional.svg
+              classname="icon"
+            />
+          </div>
+          <div
+            class="header"
+            data-testid="tab-2"
+          >
+            <ic-studio.svg
+              classname="icon"
+            />
+          </div>
+          <div
+            class="header"
+            data-testid="tab-3"
+          >
+            <ic-rocket.svg
+              classname="icon"
+            />
+          </div>
+        </div>
+        <div
+          class="content-container"
+        >
+          <div
+            class="swiper-container swiper-container-initialized swiper-container-horizontal"
+          >
+            <div
+              class="swiper-wrapper"
+              style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+            >
+              <div
+                class="container swiper-slide"
+              >
+                <div>
+                  <h3
+                    class="name"
+                  >
+                    Startup
+                  </h3>
+                  <h2
+                    class="price"
+                  >
+                    Free
+                  </h2>
+                  <p
+                    class="description"
+                  >
+                    Create a profile and get exposure for your business services
+                  </p>
+                  <button
+                    class="button button--fixed button--containedColor button--purple button--disabled button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="button-children"
+                    >
+                      Get started
+                    </div>
+                  </button>
+                </div>
+                <div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Services Showcase
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          1
+                           
+                          Service Listing
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Business Development
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Receive & respond to inquiries
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Customer service
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Email support
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="container swiper-slide"
+              >
+                <div>
+                  <h3
+                    class="name"
+                  >
+                    Professional
+                  </h3>
+                  <h2
+                    class="price"
+                  >
+                    $100/year
+                  </h2>
+                  <p
+                    class="description"
+                  >
+                    Create a profile and get exposure for your business services
+                  </p>
+                  <button
+                    class="button button--fixed button--containedColor button--purple button"
+                    type="button"
+                  >
+                    <div
+                      class="button-children"
+                    >
+                      Get started
+                    </div>
+                  </button>
+                </div>
+                <div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Services Showcase
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          3
+                           
+                          Service Listing
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Verified Profile
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Business Development
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Authentication & verification support
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Verified Client Reviews
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Receive & respond to inquiries
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          1
+                           
+                          Sub accounts
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Customer service
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Email support
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="container swiper-slide"
+              >
+                <div>
+                  <h3
+                    class="name"
+                  >
+                    Studio
+                  </h3>
+                  <h2
+                    class="price"
+                  >
+                    $400/year
+                  </h2>
+                  <p
+                    class="description"
+                  >
+                    Create a profile and get exposure for your business services
+                  </p>
+                  <button
+                    class="button button--fixed button--containedColor button--purple button--disabled button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="button-children"
+                    >
+                      Get started
+                    </div>
+                  </button>
+                </div>
+                <div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Services Showcase
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          10
+                           
+                          Service Listing
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Verified Profile
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Featured Profile & Services
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Business Development
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Authentication & verification support
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Verified Client Reviews
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Receive & respond to inquiries
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          3
+                           
+                          Sub accounts
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Customer service
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Chat support
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Legal Advisory service
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Product/Profile Advisory service
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="container swiper-slide"
+              >
+                <div>
+                  <h3
+                    class="name"
+                  >
+                    Growth
+                  </h3>
+                  <h2
+                    class="price"
+                  >
+                    $900/year
+                  </h2>
+                  <p
+                    class="description"
+                  >
+                    Create a profile and get exposure for your business services
+                  </p>
+                  <button
+                    class="button button--fixed button--containedColor button--purple button--disabled button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="button-children"
+                    >
+                      Get started
+                    </div>
+                  </button>
+                </div>
+                <div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Services Showcase
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          10
+                           
+                          Service Listing
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Verified Profile
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Featured Profile & Services
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Business Development
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Authentication & verification support
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Verified Client Reviews
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Client review with follow up
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Receive & respond to inquiries
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          10
+                           
+                          Sub accounts
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="service-container"
+                  >
+                    <p
+                      class="header"
+                    >
+                      Customer service
+                    </p>
+                    <div
+                      class="sub-service-container"
+                    >
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Dedicated account manager
+ + Chat support
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Legal Advisory service
+                        </p>
+                      </div>
+                      <div
+                        class="container"
+                      >
+                        <ic-checked.svg
+                          classname="icon"
+                        />
+                        <p>
+                          Product/Profile Advisory service
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span
+              aria-atomic="true"
+              aria-live="assertive"
+              class="swiper-notification"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="web"
+  >
+    <div
+      class="container container-wrapper"
+    >
+      <div
+        class="header-wrapper"
+      >
+        <div
+          class="header-container"
+        >
+          <h2
+            class="header"
+          >
+            Choosing a plan for your
+          </h2>
+          <div
+            class=" css-2b097c-container"
+          >
+            <div
+              class="dropdown-container control-container dropdown__control css-yk16xz-control"
+            >
+              <div
+                class="value-container value-container dropdown__value-container dropdown__value-container--has-value css-g1d714-ValueContainer"
+              >
+                <div
+                  class="single-select dropdown__single-value css-1uccc91-singleValue"
+                >
+                  Professional
+                </div>
+                <input
+                  aria-autocomplete="list"
+                  class="css-62g3xt-dummyInput"
+                  id="react-select-plan-dropdown-input"
+                  readonly=""
+                  tabindex="0"
+                  value=""
+                />
+              </div>
+              <div
+                class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <span />
+                <div>
+                  <div
+                    aria-hidden="true"
+                    class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-tlfecz-indicatorContainer"
+                  >
+                    <ic-arrow-down.svg
+                      classname="indicator-icon dropdown-indicator"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="link link--purple"
+          href="/"
+        >
+          <p
+            class="header-link"
+          >
+            Enterprise? Contact us for a custom solution
+          </p>
+        </a>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          class="plan-container plan-container--1 plan-header"
+        >
+          <div
+            class="plan-header-container"
+          >
+            <ic-startup.svg
+              classname="header-icon"
+            />
+            <h3
+              class="plan-name"
+            >
+              Startup
+            </h3>
+            <h3
+              class="plan-price"
+            >
+              Free
+            </h3>
+            <div
+              class="divider"
+            />
+            <p>
+              Create a profile and get exposure for your business services
+            </p>
+            <button
+              class="button button--fixed button--border button--disabled stared-button"
+              disabled=""
+              type="button"
+            >
+              <div
+                class="button-children"
+              >
+                Get started
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="plan-container plan-container--2 plan-header plan-header--selected"
+        >
+          <div
+            class="plan-header-container"
+          >
+            <ic-professional.svg
+              classname="header-icon"
+            />
+            <h3
+              class="plan-name"
+            >
+              Professional
+            </h3>
+            <h3
+              class="plan-price"
+            >
+              $100/year
+            </h3>
+            <div
+              class="divider"
+            />
+            <p>
+              Create a profile and get exposure for your business services
+            </p>
+            <button
+              class="button button--fixed button--containedColor button--purple stared-button stared-button--enable"
+              type="button"
+            >
+              <div
+                class="button-children"
+              >
+                Get started
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="plan-container plan-container--3 plan-header"
+        >
+          <div
+            class="plan-header-container"
+          >
+            <ic-studio.svg
+              classname="header-icon"
+            />
+            <h3
+              class="plan-name"
+            >
+              Studio
+            </h3>
+            <h3
+              class="plan-price"
+            >
+              $400/year
+            </h3>
+            <div
+              class="divider"
+            />
+            <p>
+              Create a profile and get exposure for your business services
+            </p>
+            <button
+              class="button button--fixed button--border button--disabled stared-button"
+              disabled=""
+              type="button"
+            >
+              <div
+                class="button-children"
+              >
+                Get started
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="plan-container plan-container--4 plan-header"
+        >
+          <div
+            class="plan-header-container"
+          >
+            <ic-rocket.svg
+              classname="header-icon"
+            />
+            <h3
+              class="plan-name"
+            >
+              Growth
+            </h3>
+            <h3
+              class="plan-price"
+            >
+              $900/year
+            </h3>
+            <div
+              class="divider"
+            />
+            <p>
+              Create a profile and get exposure for your business services
+            </p>
+            <button
+              class="button button--fixed button--border button--disabled stared-button"
+              disabled=""
+              type="button"
+            >
+              <div
+                class="button-children"
+              >
+                Get started
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="services-container"
+        >
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--white service-container service-header-container"
+              >
+                <p
+                  class="data service-name service-header-name"
+                >
+                  Services Showcase
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--gray service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Service Listing
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  1
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  3
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  10
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  10
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--white service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Verified Profile
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--gray service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Featured Profile & Services
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--gray"
+              />
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--white service-container service-header-container"
+              >
+                <p
+                  class="data service-name service-header-name"
+                >
+                  Business Development
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--gray service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Authentication & verification support
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--white service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Verified Client Reviews
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--gray service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Client review with follow up
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--gray"
+              />
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              />
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--white service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Receive & respond to inquiries
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--gray service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Sub accounts
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  1
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  3
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  10
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--white service-container service-header-container"
+              >
+                <p
+                  class="data service-name service-header-name"
+                >
+                  Customer service
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--white service-header-container"
+              />
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--gray service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Personalised customer service
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  Email support
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  Email support
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  Chat support
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <p
+                  class="data"
+                >
+                  Dedicated account manager
+ + Chat support
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="data-container data-container--white service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Legal Advisory service
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected"
+            >
+              <div
+                class="data-container data-container--white"
+              />
+            </div>
+            <div
+              class="content-container content-container--3 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content"
+            >
+              <div
+                class="data-container data-container--white"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-row"
+          >
+            <div
+              class="last-service"
+            >
+              <div
+                class="data-container data-container--gray service-container"
+              >
+                <p
+                  class="data service-name"
+                >
+                  Product/Profile Advisory service
+                </p>
+              </div>
+            </div>
+            <div
+              class="content-container content-container--1 plan-content plan-last-row"
+            >
+              <div
+                class="data-container data-container--gray"
+              />
+            </div>
+            <div
+              class="content-container content-container--2 plan-content plan-content--selected plan-last-row plan-last-row--selected"
+            >
+              <div
+                class="data-container data-container--gray"
+              />
+            </div>
+            <div
+              class="content-container content-container--3 plan-content plan-last-row"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+            <div
+              class="content-container content-container--4 plan-content plan-last-row"
+            >
+              <div
+                class="data-container data-container--gray"
+              >
+                <ic-checked.svg
+                  classname="data-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

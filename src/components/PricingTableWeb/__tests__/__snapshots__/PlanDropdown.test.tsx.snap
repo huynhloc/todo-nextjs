@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanDropdown Component PlanDropdown should match snapshot 1`] = `
+<div>
+  <div
+    class="header-wrapper"
+  >
+    <div
+      class="header-container"
+    >
+      <h2
+        class="header"
+      >
+        Choosing a plan for your
+      </h2>
+      <div
+        class=" css-2b097c-container"
+      >
+        <div
+          class="dropdown-container control-container dropdown__control css-yk16xz-control"
+        >
+          <div
+            class="value-container value-container dropdown__value-container dropdown__value-container--has-value css-g1d714-ValueContainer"
+          >
+            <div
+              class="single-select dropdown__single-value css-1uccc91-singleValue"
+            >
+              Startup
+            </div>
+            <input
+              aria-autocomplete="list"
+              class="css-62g3xt-dummyInput"
+              id="react-select-plan-dropdown-input"
+              readonly=""
+              tabindex="0"
+              value=""
+            />
+          </div>
+          <div
+            class="dropdown__indicators css-1hb7zxy-IndicatorsContainer"
+          >
+            <span />
+            <div>
+              <div
+                aria-hidden="true"
+                class="dropdown-indicator-container dropdown__indicator dropdown__dropdown-indicator css-tlfecz-indicatorContainer"
+              >
+                <ic-arrow-down.svg
+                  classname="indicator-icon dropdown-indicator"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a
+      class="link link--purple"
+      href="/"
+    >
+      <p
+        class="header-link"
+      >
+        Enterprise? Contact us for a custom solution
+      </p>
+    </a>
+  </div>
+</div>
+`;

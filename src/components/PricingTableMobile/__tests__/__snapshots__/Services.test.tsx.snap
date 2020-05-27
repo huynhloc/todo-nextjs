@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Services Component it should match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="service-container"
+    >
+      <p
+        class="header"
+      >
+        Services Showcase
+      </p>
+      <div
+        class="sub-service-container"
+      >
+        <div
+          class="container"
+        >
+          <ic-checked.svg
+            classname="icon"
+          />
+          <p>
+            3
+             
+            Service Listing
+          </p>
+        </div>
+        <div
+          class="container"
+        >
+          <ic-checked.svg
+            classname="icon"
+          />
+          <p>
+            Verified Profile
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="service-container"
+    >
+      <p
+        class="header"
+      >
+        Business Development
+      </p>
+      <div
+        class="sub-service-container"
+      >
+        <div
+          class="container"
+        >
+          <ic-checked.svg
+            classname="icon"
+          />
+          <p>
+            Authentication & verification support
+          </p>
+        </div>
+        <div
+          class="container"
+        >
+          <ic-checked.svg
+            classname="icon"
+          />
+          <p>
+            Verified Client Reviews
+          </p>
+        </div>
+        <div
+          class="container"
+        >
+          <ic-checked.svg
+            classname="icon"
+          />
+          <p>
+            Receive & respond to inquiries
+          </p>
+        </div>
+        <div
+          class="container"
+        >
+          <ic-checked.svg
+            classname="icon"
+          />
+          <p>
+            1
+             
+            Sub accounts
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="service-container"
+    >
+      <p
+        class="header"
+      >
+        Customer service
+      </p>
+      <div
+        class="sub-service-container"
+      >
+        <div
+          class="container"
+        >
+          <ic-checked.svg
+            classname="icon"
+          />
+          <p>
+            Email support
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

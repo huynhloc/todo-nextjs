@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast Component Toast should appear Toast notify as error 1`] = `
+<DocumentFragment>
+  <button>
+    Toast
+  </button>
+  <div
+    class="Toastify"
+  >
+    <div
+      class="Toastify__toast-container Toastify__toast-container--top-right toast-container"
+    >
+      <div
+        class="Toastify__toast Toastify__toast--default toast toast--error"
+        style=""
+      >
+        <div
+          class="Toastify__toast-body toast-body"
+          role="alert"
+        >
+          Error
+        </div>
+        <div
+          class="Toastify__progress-bar Toastify__progress-bar--animated Toastify__progress-bar--default"
+          style="animation-duration: 5000ms; animation-play-state: running; opacity: 0;"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Toast Component Toast should appear Toast notify as success 1`] = `
+<DocumentFragment>
+  <button>
+    Toast
+  </button>
+  <div
+    class="Toastify"
+  >
+    <div
+      class="Toastify__toast-container Toastify__toast-container--top-right toast-container"
+    >
+      <div
+        class="Toastify__toast Toastify__toast--default toast toast--success"
+        style=""
+      >
+        <div
+          class="Toastify__toast-body toast-body"
+          role="alert"
+        >
+          Success
+        </div>
+        <div
+          class="Toastify__progress-bar Toastify__progress-bar--animated Toastify__progress-bar--default"
+          style="animation-duration: 5000ms; animation-play-state: running; opacity: 0;"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Toast Component Toast should appear Toast notify as warning 1`] = `
+<DocumentFragment>
+  <button>
+    Toast
+  </button>
+  <div
+    class="Toastify"
+  >
+    <div
+      class="Toastify__toast-container Toastify__toast-container--top-right toast-container"
+    >
+      <div
+        class="Toastify__toast Toastify__toast--default toast toast--warning"
+        style=""
+      >
+        <div
+          class="Toastify__toast-body toast-body"
+          role="alert"
+        >
+          Warning
+        </div>
+        <div
+          class="Toastify__progress-bar Toastify__progress-bar--animated Toastify__progress-bar--default"
+          style="animation-duration: 5000ms; animation-play-state: running; opacity: 0;"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Toast Component Toast should match snapshot 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+</div>
+`;

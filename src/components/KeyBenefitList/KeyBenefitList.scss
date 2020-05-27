@@ -1,0 +1,45 @@
+@import 'config.gutters';
+@import 'config.media';
+
+.header-container {
+  margin-top: gutter(48);
+  margin-bottom: gutter(32);
+
+  @include break(xl) {
+    margin-top: gutter(96);
+    margin-bottom: gutter(72);
+    padding-right: gutter(240);
+  }
+}
+
+.row-container {
+  width: 100%;
+  margin-bottom: gutter(12);
+
+  @include break(md) {
+    margin-bottom: gutter(0);
+  }
+}
+
+.container {
+  margin-bottom: gutter(48);
+
+  @include break(md) {
+    margin-bottom: gutter(24);
+  }
+
+  @include break(xl) {
+    margin-bottom: gutter(48);
+  }
+}
+
+.desktop-benefit-container {
+  display: flex;
+  justify-content: space-between;
+
+  & > .row-container {
+    &:first-child {
+      margin-right: gutter(48);
+    }
+  }
+}

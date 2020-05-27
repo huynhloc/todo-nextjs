@@ -1,0 +1,29 @@
+@import 'config.gutters';
+@import 'config.media';
+
+.container {
+  margin-bottom: gutter(24);
+
+  @include break(xl) {
+    margin-top: gutter(24);
+    margin-bottom: gutter(96);
+  }
+}
+
+.title {
+  margin-bottom: gutter(32);
+
+  @include break(xl) {
+    margin-bottom: gutter(48);
+  }
+}
+
+.process-container {
+  display: flex;
+  flex-direction: column;
+
+  @include break(md) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

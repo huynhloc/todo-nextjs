@@ -1,0 +1,48 @@
+@import 'config.gutters';
+@import 'config.media';
+@import 'config.variables';
+@import 'config.colors';
+
+$width-sm: 85vw;
+$width-lg: 34rem;
+
+.toast-container {
+  width: $width-sm;
+  left: 50%;
+  top: gutter(8);
+  margin-left: calc(#{$width-sm} / -2);
+
+  @include break(lg) {
+    width: $width-lg;
+    margin-left: calc(#{$width-lg} / -2);
+  }
+}
+
+.toast {
+  padding: gutter(8) gutter(16);
+  min-height: auto;
+  max-height: unset;
+  width: auto;
+  box-shadow: $elevator-1;
+  border: 0.1rem solid;
+  margin-bottom: gutter(8);
+
+  &--success {
+    background-color: $toast-success-bg;
+    border-color: $toast-success-border;
+  }
+
+  &--error {
+    background-color: $toast-error-bg;
+    border-color: $toast-error-border;
+  }
+
+  &--warning {
+    background-color: $toast-warning-bg;
+    border-color: $toast-warning-border;
+  }
+}
+
+.toast-body {
+  margin: gutter(0);
+}

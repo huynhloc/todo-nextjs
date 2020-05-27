@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component should match button busy style 1`] = `
+<div>
+  <a
+    class="button button--fixed button--textOnly"
+    href="/about"
+  >
+    <div
+      class="button-children"
+    >
+      <div
+        class="loader"
+      />
+      Please wait...
+    </div>
+  </a>
+  <button
+    class="button button--fixed button--border"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      <div
+        class="loader"
+      />
+      Please wait...
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--purple"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      <div
+        class="loader"
+      />
+      Please wait...
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--black"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      <div
+        class="loader"
+      />
+      Please wait...
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--white"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      <div
+        class="loader"
+      />
+      Please wait...
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Button Component should match button contained color style 1`] = `
+<div>
+  <button
+    class="button button--fixed button--containedColor button--purple"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--black"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--white"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Button Component should match button disable style 1`] = `
+<div>
+  <button
+    class="button button--fixed button--textOnly button--disabled"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--border button--disabled"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--purple button--disabled"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--black button--disabled"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--white button--disabled"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Button Component should match button style 1`] = `
+<div>
+  <button
+    class="button button--fixed button--textOnly"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--border"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--black"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Button Component should match button type 1`] = `
+<div>
+  <a
+    class="button button--fixed button--containedColor button--black"
+    href="/about"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </a>
+  <button
+    class="button button--fixed button--containedColor button--black"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--black"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <a
+    class="button button--scalable button--containedColor button--black"
+    href="/about"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </a>
+  <button
+    class="button button--scalable button--containedColor button--black"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--scalable button--containedColor button--black"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Button Component should match button/link snapshot 1`] = `
+<div>
+  <a
+    class="button button--fixed button--containedColor button--black"
+    href="/about"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </a>
+  <button
+    class="button button--fixed button--containedColor button--black"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+  <button
+    class="button button--fixed button--containedColor button--black"
+    type="button"
+  >
+    <div
+      class="button-children"
+    >
+      Button Component
+    </div>
+  </button>
+</div>
+`;

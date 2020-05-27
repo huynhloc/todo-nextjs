@@ -1,0 +1,863 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellerLayout Component SellerLayout should match snapshot 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+  <div
+    class="container container"
+  >
+    <ic-logo.svg
+      classname="logo--dark"
+      height="27"
+      width="100"
+    />
+    <div
+      class="right-container"
+    >
+      <div
+        class="desktop-menu-group"
+      >
+        <div
+          class="container"
+        >
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item1
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item2
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item3
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item4
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item5
+            </div>
+          </button>
+        </div>
+      </div>
+      <a
+        class="button button--fixed button--containedColor button--black button-try"
+        href="/sign-up"
+      >
+        <div
+          class="button-children"
+        >
+          Join us
+        </div>
+      </a>
+      <ic-hamburger-menu.svg
+        classname="hamburger-menu"
+        data-testid="toggle-button"
+      />
+      <div
+        class="dropdown-container"
+      >
+        <div
+          class="items-container"
+        >
+          <div
+            class="items-section"
+          >
+            <div
+              class="menu-item"
+            >
+              item1
+            </div>
+            <div
+              class="menu-item"
+            >
+              item2
+            </div>
+            <div
+              class="menu-item"
+            >
+              item3
+            </div>
+            <div
+              class="menu-item"
+            >
+              item4
+            </div>
+            <div
+              class="menu-item"
+            >
+              item5
+            </div>
+          </div>
+          <div
+            class="items-section"
+          >
+            <a
+              class="link"
+              href="/sign-in"
+            >
+              <div
+                class="menu-item"
+              >
+                <div
+                  class="menu-item-title menu-user-title"
+                >
+                  Log in
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="items-section"
+          >
+            <div
+              class="menu-item"
+            >
+              Help center
+            </div>
+            <div
+              class="menu-item"
+            >
+              <ic-language.svg
+                classname="ic-language"
+              />
+              <span>
+                ENG
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="button button--fixed button--textOnly desktop-sign-in"
+        href="/sign-in"
+      >
+        <div
+          class="button-children"
+        >
+          Log in
+        </div>
+      </a>
+    </div>
+  </div>
+  <div
+    class="layout-content"
+  >
+    <p>
+      Seller Layout
+    </p>
+  </div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="container container"
+    >
+      <div
+        class="top-section"
+      >
+        <ic-logo.svg
+          classname="logo--light"
+          height="27"
+          width="100"
+        />
+        <div
+          class="icons-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-facebook.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-insta.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-twitter.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-linkin.svg
+              classname="icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="bottom-section"
+      >
+        <p
+          class="sub-title"
+        >
+          © 2020 Intrepid
+        </p>
+        <div
+          class="texts-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Term
+            </span>
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Privacy
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SellerLayout Component SellerLayout should match snapshot when current route is login page 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+  <div
+    class="container container container--auto-hidden"
+  >
+    <ic-logo.svg
+      classname="logo--dark"
+      height="27"
+      width="100"
+    />
+    <div
+      class="right-container"
+    >
+      <div
+        class="desktop-menu-group"
+      >
+        <div
+          class="container"
+        >
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item1
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item2
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item3
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item4
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item5
+            </div>
+          </button>
+        </div>
+      </div>
+      <a
+        class="button button--fixed button--containedColor button--black button-try"
+        href="/sign-up"
+      >
+        <div
+          class="button-children"
+        >
+          Join us
+        </div>
+      </a>
+      <ic-hamburger-menu.svg
+        classname="hamburger-menu"
+        data-testid="toggle-button"
+      />
+      <div
+        class="dropdown-container"
+      >
+        <div
+          class="items-container"
+        >
+          <div
+            class="items-section"
+          >
+            <div
+              class="menu-item"
+            >
+              item1
+            </div>
+            <div
+              class="menu-item"
+            >
+              item2
+            </div>
+            <div
+              class="menu-item"
+            >
+              item3
+            </div>
+            <div
+              class="menu-item"
+            >
+              item4
+            </div>
+            <div
+              class="menu-item"
+            >
+              item5
+            </div>
+          </div>
+          <div
+            class="items-section"
+          >
+            <a
+              class="link"
+              href="/sign-in"
+            >
+              <div
+                class="menu-item"
+              >
+                <div
+                  class="menu-item-title menu-user-title"
+                >
+                  Log in
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="items-section"
+          >
+            <div
+              class="menu-item"
+            >
+              Help center
+            </div>
+            <div
+              class="menu-item"
+            >
+              <ic-language.svg
+                classname="ic-language"
+              />
+              <span>
+                ENG
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="button button--fixed button--textOnly desktop-sign-in"
+        href="/sign-in"
+      >
+        <div
+          class="button-children"
+        >
+          Log in
+        </div>
+      </a>
+    </div>
+  </div>
+  <div
+    class="container container"
+  >
+    <button
+      class="button button--fixed button--textOnly back-button"
+      type="button"
+    >
+      <div
+        class="button-children back-button-content"
+      >
+        <ic-back.svg
+          classname="icon-back"
+        />
+      </div>
+    </button>
+    <a
+      class="button button--fixed button--textOnly right-button"
+      href="/sign-up"
+    >
+      <div
+        class="button-children right-btn-children"
+      >
+        Sign up
+      </div>
+    </a>
+  </div>
+  <div
+    class="layout-content"
+  >
+    <p>
+      Seller Layout
+    </p>
+  </div>
+  <div
+    class="wrapper auto-hidden"
+  >
+    <div
+      class="container container"
+    >
+      <div
+        class="top-section"
+      >
+        <ic-logo.svg
+          classname="logo--light"
+          height="27"
+          width="100"
+        />
+        <div
+          class="icons-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-facebook.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-insta.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-twitter.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-linkin.svg
+              classname="icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="bottom-section"
+      >
+        <p
+          class="sub-title"
+        >
+          © 2020 Intrepid
+        </p>
+        <div
+          class="texts-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Term
+            </span>
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Privacy
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SellerLayout Component SellerLayout should match snapshot when current route is signup page 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+  <div
+    class="container container container--auto-hidden"
+  >
+    <ic-logo.svg
+      classname="logo--dark"
+      height="27"
+      width="100"
+    />
+    <div
+      class="right-container"
+    >
+      <div
+        class="desktop-menu-group"
+      >
+        <div
+          class="container"
+        >
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item1
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item2
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item3
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item4
+            </div>
+          </button>
+          <button
+            class="button button--fixed button--textOnly menu-item-container"
+            type="button"
+          >
+            <div
+              class="button-children"
+            >
+              item5
+            </div>
+          </button>
+        </div>
+      </div>
+      <a
+        class="button button--fixed button--containedColor button--black button-try"
+        href="/sign-up"
+      >
+        <div
+          class="button-children"
+        >
+          Join us
+        </div>
+      </a>
+      <ic-hamburger-menu.svg
+        classname="hamburger-menu"
+        data-testid="toggle-button"
+      />
+      <div
+        class="dropdown-container"
+      >
+        <div
+          class="items-container"
+        >
+          <div
+            class="items-section"
+          >
+            <div
+              class="menu-item"
+            >
+              item1
+            </div>
+            <div
+              class="menu-item"
+            >
+              item2
+            </div>
+            <div
+              class="menu-item"
+            >
+              item3
+            </div>
+            <div
+              class="menu-item"
+            >
+              item4
+            </div>
+            <div
+              class="menu-item"
+            >
+              item5
+            </div>
+          </div>
+          <div
+            class="items-section"
+          >
+            <a
+              class="link"
+              href="/sign-in"
+            >
+              <div
+                class="menu-item"
+              >
+                <div
+                  class="menu-item-title menu-user-title"
+                >
+                  Log in
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="items-section"
+          >
+            <div
+              class="menu-item"
+            >
+              Help center
+            </div>
+            <div
+              class="menu-item"
+            >
+              <ic-language.svg
+                classname="ic-language"
+              />
+              <span>
+                ENG
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="button button--fixed button--textOnly desktop-sign-in"
+        href="/sign-in"
+      >
+        <div
+          class="button-children"
+        >
+          Log in
+        </div>
+      </a>
+    </div>
+  </div>
+  <div
+    class="container container"
+  >
+    <button
+      class="button button--fixed button--textOnly back-button"
+      type="button"
+    >
+      <div
+        class="button-children back-button-content"
+      >
+        <ic-back.svg
+          classname="icon-back"
+        />
+      </div>
+    </button>
+    <a
+      class="button button--fixed button--textOnly right-button"
+      href="/sign-in"
+    >
+      <div
+        class="button-children right-btn-children"
+      >
+        Login
+      </div>
+    </a>
+  </div>
+  <div
+    class="layout-content"
+  >
+    <p>
+      Seller Layout
+    </p>
+  </div>
+  <div
+    class="wrapper auto-hidden"
+  >
+    <div
+      class="container container"
+    >
+      <div
+        class="top-section"
+      >
+        <ic-logo.svg
+          classname="logo--light"
+          height="27"
+          width="100"
+        />
+        <div
+          class="icons-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-facebook.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-insta.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-twitter.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-linkin.svg
+              classname="icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="bottom-section"
+      >
+        <p
+          class="sub-title"
+        >
+          © 2020 Intrepid
+        </p>
+        <div
+          class="texts-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Term
+            </span>
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Privacy
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

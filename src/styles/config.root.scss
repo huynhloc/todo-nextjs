@@ -1,0 +1,50 @@
+@import 'config.fonts';
+@import 'config.colors';
+
+html {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: $fontPrimary;
+  overflow-x: hidden;
+  color: $black;
+}
+
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+input {
+  font-size: 100%; /* 1 */
+  margin: 0; /* 2 */
+  vertical-align: baseline; /* 3 */
+  *vertical-align: middle; /* 3 */
+  line-height: normal;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input:focus {
+  outline: unset;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+button {
+  font-family: $fontPrimary;
+}
+
+a {
+  display: inline-block;
+}

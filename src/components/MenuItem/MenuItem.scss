@@ -1,0 +1,11 @@
+@import 'config.fonts';
+@import 'config.gutters';
+
+.menu-item-container {
+  padding: gutter(24) gutter(16);
+  margin-right: gutter(8);
+}
+
+.menu-title {
+  @include button;
+}

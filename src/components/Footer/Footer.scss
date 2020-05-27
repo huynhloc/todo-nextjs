@@ -1,0 +1,89 @@
+@import 'config.colors';
+@import 'config.gutters';
+@import 'config.fonts';
+@import 'config.variables';
+
+.auto-hidden {
+  display: none;
+  @include break(lg) {
+    display: block;
+  }
+}
+
+.wrapper {
+  width: 100vw;
+  background-color: $black;
+  padding-top: gutter(20);
+  padding-bottom: gutter(16);
+  height: $footer-height-sm;
+
+  @include break(md) {
+    height: $footer-height-md;
+  }
+
+  @include break(lg) {
+    padding-top: gutter(48);
+    padding-bottom: gutter(48);
+    height: $footer-height-lg;
+  }
+
+  @include break(xl) {
+    height: $footer-height-xl;
+  }
+}
+
+.sub-title {
+  color: $white;
+  opacity: 0.5;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: gutter(12);
+  @include break(lg) {
+    padding-bottom: gutter(16);
+  }
+}
+
+.bottom-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: gutter(12);
+  border-top-width: 0.05rem;
+  border-top-color: #4d4d4d;
+  border-top-style: solid;
+
+  @include break(lg) {
+    padding-top: gutter(16);
+  }
+}
+
+.texts-wrapper,
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin-left: gutter(12);
+  @include break(lg) {
+    margin-left: gutter(16);
+  }
+}
+
+.link-text {
+  @include small;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+
+  @include break(lg) {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}

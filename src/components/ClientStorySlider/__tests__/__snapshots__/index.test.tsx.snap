@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider Component Slider should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="container title-container"
+    >
+      <h2>
+        Our client stories
+      </h2>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="swiper-slide swiper-slider swiper-slide-duplicate"
+            data-swiper-slide-index="0"
+          >
+            <div
+              class="container container--light"
+            >
+              <img
+                alt="client-avatar"
+                class="avatar"
+                src="client1.jpg"
+              />
+              <p
+                class="client-quote"
+              >
+                "
+                Thanks to Intrepid, I now spend more time improving my services instead of searching for customers and chasing leads. The best part is that I'm much less stressed out and have more time for my kids
+                "
+              </p>
+              <p
+                class="client"
+              >
+                Olena Zanichkovska
+                ,
+                <br />
+                <span
+                  class="client-title"
+                >
+                  Founding Partner
+                   
+                  @The Gradient
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="swiper-slide swiper-slider swiper-slide-duplicate"
+            data-swiper-slide-index="1"
+          >
+            <div
+              class="container container--dark"
+            >
+              <img
+                alt="client-avatar"
+                class="avatar"
+                src="client2.jpg"
+              />
+              <p
+                class="client-quote"
+              >
+                "
+                We have developed a great relationship with the Intrepid team. Their understanding of the challenges faced by service providers is extremely evident in the platform they have created.
+                "
+              </p>
+              <p
+                class="client"
+              >
+                John Davies
+                ,
+                <br />
+                <span
+                  class="client-title"
+                >
+                  CEO,
+                   
+                  Symbol
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="swiper-slide swiper-slider"
+            data-swiper-slide-index="0"
+          >
+            <div
+              class="container container--light"
+            >
+              <img
+                alt="client-avatar"
+                class="avatar"
+                src="client1.jpg"
+              />
+              <p
+                class="client-quote"
+              >
+                "
+                Thanks to Intrepid, I now spend more time improving my services instead of searching for customers and chasing leads. The best part is that I'm much less stressed out and have more time for my kids
+                "
+              </p>
+              <p
+                class="client"
+              >
+                Olena Zanichkovska
+                ,
+                <br />
+                <span
+                  class="client-title"
+                >
+                  Founding Partner
+                   
+                  @The Gradient
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="swiper-slide swiper-slider"
+            data-swiper-slide-index="1"
+          >
+            <div
+              class="container container--dark"
+            >
+              <img
+                alt="client-avatar"
+                class="avatar"
+                src="client2.jpg"
+              />
+              <p
+                class="client-quote"
+              >
+                "
+                We have developed a great relationship with the Intrepid team. Their understanding of the challenges faced by service providers is extremely evident in the platform they have created.
+                "
+              </p>
+              <p
+                class="client"
+              >
+                John Davies
+                ,
+                <br />
+                <span
+                  class="client-title"
+                >
+                  CEO,
+                   
+                  Symbol
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="swiper-slide swiper-slider swiper-slide-duplicate"
+            data-swiper-slide-index="0"
+          >
+            <div
+              class="container container--light"
+            >
+              <img
+                alt="client-avatar"
+                class="avatar"
+                src="client1.jpg"
+              />
+              <p
+                class="client-quote"
+              >
+                "
+                Thanks to Intrepid, I now spend more time improving my services instead of searching for customers and chasing leads. The best part is that I'm much less stressed out and have more time for my kids
+                "
+              </p>
+              <p
+                class="client"
+              >
+                Olena Zanichkovska
+                ,
+                <br />
+                <span
+                  class="client-title"
+                >
+                  Founding Partner
+                   
+                  @The Gradient
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="swiper-slide swiper-slider swiper-slide-duplicate"
+            data-swiper-slide-index="1"
+          >
+            <div
+              class="container container--dark"
+            >
+              <img
+                alt="client-avatar"
+                class="avatar"
+                src="client2.jpg"
+              />
+              <p
+                class="client-quote"
+              >
+                "
+                We have developed a great relationship with the Intrepid team. Their understanding of the challenges faced by service providers is extremely evident in the platform they have created.
+                "
+              </p>
+              <p
+                class="client"
+              >
+                John Davies
+                ,
+                <br />
+                <span
+                  class="client-title"
+                >
+                  CEO,
+                   
+                  Symbol
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

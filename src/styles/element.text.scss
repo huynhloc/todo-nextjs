@@ -1,0 +1,26 @@
+@import 'config.fonts';
+
+h1 {
+  margin: 0;
+  padding: 0;
+  @include h1;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  @include h2;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  @include h3;
+}
+
+span,
+p {
+  margin: 0;
+  padding: 0;
+  @include body;
+}

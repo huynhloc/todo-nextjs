@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput Component TextInput should match snapshot 1`] = `
+<div>
+  <div
+    class="input-wrapper"
+  >
+    <label
+      class="label"
+      for="text input"
+    >
+      text input
+    </label>
+    <div
+      class="input-container"
+    >
+      <input
+        class="input"
+        id="text input"
+        placeholder="placeholder"
+        type="text"
+        value="value"
+      />
+      <span
+        class="focus-border"
+      />
+    </div>
+    <p
+      class="message"
+    >
+      hint
+    </p>
+  </div>
+  <div
+    class="input-wrapper"
+  >
+    <label
+      class="label"
+      for="email input"
+    >
+      email input
+    </label>
+    <div
+      class="input-container"
+    >
+      <input
+        class="input"
+        id="email input"
+        placeholder="placeholder"
+        required=""
+        type="email"
+        value="value"
+      />
+      <span
+        class="focus-border"
+      />
+    </div>
+    <p
+      class="message"
+    >
+      hint
+    </p>
+  </div>
+  <div
+    class="input-wrapper"
+  >
+    <label
+      class="label"
+      for="text input"
+    >
+      text input
+    </label>
+    <div
+      class="input-container"
+    >
+      <input
+        class="input"
+        id="text input"
+        placeholder="placeholder"
+        type="text"
+        value="value"
+      />
+      <span
+        class="focus-border focus-border--error"
+      />
+    </div>
+    <p
+      class="message message--error"
+    >
+      Error message
+    </p>
+  </div>
+  <div
+    class="input-wrapper"
+  >
+    <label
+      class="label"
+      for="text input"
+    >
+      text input
+    </label>
+    <div
+      class="input-container"
+    >
+      <input
+        class="input"
+        id="text input"
+        placeholder="placeholder"
+        type="text"
+        value="value"
+      />
+      <span
+        class="focus-border focus-border--error"
+      />
+    </div>
+    <p
+      class="message message--error"
+    >
+      Error message
+    </p>
+  </div>
+  <div
+    class="input-wrapper"
+  >
+    <label
+      class="label"
+      for="text input"
+    >
+      text input
+    </label>
+    <div
+      class="input-container"
+    >
+      <input
+        class="input"
+        id="text input"
+        placeholder="placeholder"
+        type="text"
+        value="value"
+      />
+      <span
+        class="focus-border focus-border--active"
+      />
+    </div>
+    <p
+      class="message message--active"
+    >
+      hint
+    </p>
+  </div>
+  <div
+    class="input-wrapper"
+  >
+    <label
+      class="label"
+      for="password input"
+    >
+      password input
+    </label>
+    <div
+      class="input-container"
+    >
+      <input
+        class="input"
+        id="password input"
+        placeholder="placeholder"
+        type="password"
+        value="value"
+      />
+      <span
+        class="focus-border"
+      />
+    </div>
+    <p
+      class="message"
+    >
+      hint
+    </p>
+  </div>
+  <div
+    class="input-wrapper"
+  >
+    <label
+      class="label"
+      for="password input"
+    >
+      password input
+    </label>
+    <div
+      class="input-container"
+    >
+      <input
+        class="input input-password"
+        id="password input"
+        placeholder="placeholder"
+        type="password"
+        value="value"
+      />
+      <span
+        class="focus-border"
+      />
+      <ic-password-hide.svg
+        classname="password-icon"
+        data-testid="password-icon"
+      />
+    </div>
+    <p
+      class="message"
+    >
+      hint
+    </p>
+  </div>
+</div>
+`;
+
+exports[`TextInput Component password should show/hide on click 1`] = `
+<DocumentFragment>
+  <div
+    class="input-wrapper"
+  >
+    <label
+      class="label"
+      for="password input"
+    >
+      password input
+    </label>
+    <div
+      class="input-container"
+    >
+      <input
+        class="input input-password"
+        id="password input"
+        placeholder="placeholder"
+        type="password"
+        value="password"
+      />
+      <span
+        class="focus-border"
+      />
+      <ic-password-hide.svg
+        classname="password-icon"
+        data-testid="password-icon"
+      />
+    </div>
+    <p
+      class="message"
+    >
+      hint
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextInput Component password should show/hide on click 2`] = `
+<DocumentFragment>
+  <div
+    class="input-wrapper"
+  >
+    <label
+      class="label"
+      for="password input"
+    >
+      password input
+    </label>
+    <div
+      class="input-container"
+    >
+      <input
+        class="input input-password"
+        id="password input"
+        placeholder="placeholder"
+        type="text"
+        value="password"
+      />
+      <span
+        class="focus-border"
+      />
+      <ic-password-show.svg
+        classname="password-icon"
+        data-testid="password-icon"
+      />
+    </div>
+    <p
+      class="message"
+    >
+      hint
+    </p>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,161 @@
+@import 'config.gutters';
+@import 'config.media';
+@import 'config.colors';
+@import 'config.fonts';
+
+.button {
+  display: inline-block;
+  padding-top: gutter(8);
+  padding-bottom: gutter(8);
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+
+  @include break(xl) {
+    padding-top: gutter(12);
+    padding-bottom: gutter(12);
+  }
+
+  & > .button-children {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: $black;
+    @include button;
+    .loader {
+      border-radius: 50%;
+      border: 0.2rem solid $black;
+      border-bottom-color: transparent;
+      width: 1.8rem;
+      height: 1.8rem;
+      margin-right: 1.2rem;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+    }
+  }
+
+  &--fixed {
+    padding-left: gutter(16);
+    padding-right: gutter(16);
+
+    @include break(xl) {
+      padding-left: gutter(24);
+      padding-right: gutter(24);
+    }
+  }
+
+  &--scalable {
+    display: inline-block;
+    width: 100%;
+    min-width: 12.5rem;
+  }
+
+  &--textOnly {
+    background-color: unset;
+    border: unset;
+
+    &:hover {
+      background-color: $text-only-press;
+    }
+    &:active {
+      background-color: $text-only-press;
+    }
+  }
+
+  &--border {
+    border: 1px solid $black;
+    background-color: transparent;
+
+    &:hover {
+      background-color: $text-only-press;
+    }
+    &:active {
+      background-color: $text-only-press;
+    }
+  }
+
+  &--containedColor {
+    &.button--black {
+      background-color: $black;
+      &:hover {
+        background-color: $contained-black;
+      }
+      &:active {
+        background-color: $contained-black;
+      }
+
+      .button-children {
+        color: $white;
+        .loader {
+          border-color: $white;
+          border-bottom-color: transparent;
+        }
+      }
+    }
+
+    &.button--white {
+      background-color: $white;
+      &:hover {
+        background-color: $contained-white;
+      }
+      &:active {
+        background-color: $contained-white;
+      }
+
+      .button-children {
+        color: $black;
+        .loader {
+          border-color: $black;
+          border-bottom-color: transparent;
+        }
+      }
+    }
+
+    &.button--purple {
+      background-color: $purple;
+      &:hover {
+        background-color: $contained-purple;
+      }
+      &:active {
+        background-color: $contained-purple;
+      }
+
+      .button-children {
+        color: $white;
+        .loader {
+          border-color: $white;
+          border-bottom-color: transparent;
+        }
+      }
+    }
+  }
+
+  &--disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.24;
+  }
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

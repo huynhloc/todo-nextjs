@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InactiveSlider Component InactiveSlider should match snapshot 1`] = `
+<div>
+  <div
+    class="swiper-container swiper-container-initialized swiper-container-horizontal"
+  >
+    <div
+      class="swiper-wrapper"
+      style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+    >
+      <div
+        class="swiper-slide swiper-slide-duplicate"
+        data-swiper-slide-index="0"
+      >
+        Slide a
+      </div>
+      <div
+        class="swiper-slide swiper-slide-duplicate"
+        data-swiper-slide-index="1"
+      >
+        Slide b
+      </div>
+      <div
+        class="swiper-slide swiper-slide-duplicate"
+        data-swiper-slide-index="2"
+      >
+        Slide c
+      </div>
+      <div
+        class="swiper-slide swiper-slide-duplicate"
+        data-swiper-slide-index="3"
+      >
+        Slide d
+      </div>
+      <div
+        class="swiper-slide"
+        data-swiper-slide-index="0"
+      >
+        Slide a
+      </div>
+      <div
+        class="swiper-slide"
+        data-swiper-slide-index="1"
+      >
+        Slide b
+      </div>
+      <div
+        class="swiper-slide"
+        data-swiper-slide-index="2"
+      >
+        Slide c
+      </div>
+      <div
+        class="swiper-slide"
+        data-swiper-slide-index="3"
+      >
+        Slide d
+      </div>
+      <div
+        class="swiper-slide swiper-slide-duplicate"
+        data-swiper-slide-index="0"
+      >
+        Slide a
+      </div>
+      <div
+        class="swiper-slide swiper-slide-duplicate"
+        data-swiper-slide-index="1"
+      >
+        Slide b
+      </div>
+      <div
+        class="swiper-slide swiper-slide-duplicate"
+        data-swiper-slide-index="2"
+      >
+        Slide c
+      </div>
+      <div
+        class="swiper-slide swiper-slide-duplicate"
+        data-swiper-slide-index="3"
+      >
+        Slide d
+      </div>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      class="swiper-notification"
+    />
+  </div>
+</div>
+`;

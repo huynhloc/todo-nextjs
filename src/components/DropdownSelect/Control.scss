@@ -1,0 +1,10 @@
+@import 'config.colors';
+
+.control {
+  background-color: $light-gray !important;
+  border: unset !important;
+  border-radius: 0 !important;
+  outline: unset !important;
+  box-shadow: none !important;
+  min-height: 4rem !important;
+}

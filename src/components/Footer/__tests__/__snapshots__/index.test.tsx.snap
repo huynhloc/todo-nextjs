@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component Footer should match snapshot 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="container container"
+    >
+      <div
+        class="top-section"
+      >
+        <ic-logo.svg
+          classname="logo--light"
+          height="27"
+          width="100"
+        />
+        <div
+          class="icons-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-facebook.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-insta.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-twitter.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-linkin.svg
+              classname="icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="bottom-section"
+      >
+        <p
+          class="sub-title"
+        >
+          © 2020 Intrepid
+        </p>
+        <div
+          class="texts-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Term
+            </span>
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Privacy
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Footer Component Footer should match snapshot when current route is confirm email page 1`] = `
+<div>
+  <div
+    class="wrapper auto-hidden"
+  >
+    <div
+      class="container container"
+    >
+      <div
+        class="top-section"
+      >
+        <ic-logo.svg
+          classname="logo--light"
+          height="27"
+          width="100"
+        />
+        <div
+          class="icons-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-facebook.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-insta.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-twitter.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-linkin.svg
+              classname="icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="bottom-section"
+      >
+        <p
+          class="sub-title"
+        >
+          © 2020 Intrepid
+        </p>
+        <div
+          class="texts-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Term
+            </span>
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Privacy
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Footer Component Footer should match snapshot when current route is login page 1`] = `
+<div>
+  <div
+    class="wrapper auto-hidden"
+  >
+    <div
+      class="container container"
+    >
+      <div
+        class="top-section"
+      >
+        <ic-logo.svg
+          classname="logo--light"
+          height="27"
+          width="100"
+        />
+        <div
+          class="icons-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-facebook.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-insta.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-twitter.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-linkin.svg
+              classname="icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="bottom-section"
+      >
+        <p
+          class="sub-title"
+        >
+          © 2020 Intrepid
+        </p>
+        <div
+          class="texts-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Term
+            </span>
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Privacy
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Footer Component Footer should match snapshot when current route is signup page 1`] = `
+<div>
+  <div
+    class="wrapper auto-hidden"
+  >
+    <div
+      class="container container"
+    >
+      <div
+        class="top-section"
+      >
+        <ic-logo.svg
+          classname="logo--light"
+          height="27"
+          width="100"
+        />
+        <div
+          class="icons-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-facebook.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-insta.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-twitter.svg
+              classname="icon"
+            />
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <ic-linkin.svg
+              classname="icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="bottom-section"
+      >
+        <p
+          class="sub-title"
+        >
+          © 2020 Intrepid
+        </p>
+        <div
+          class="texts-wrapper"
+        >
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Term
+            </span>
+          </a>
+          <a
+            class="link link--white link--hover link"
+            href="/#"
+          >
+            <span
+              class="link-text"
+            >
+              Privacy
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

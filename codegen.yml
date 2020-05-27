@@ -1,0 +1,27 @@
+overwrite: true
+schema:
+  - ${API_ENDPOINT}
+  - src/typeDefs/clientSchema.ts
+documents: 'src/graphqls/*.ts'
+generates:
+  src/types/generatedGraphql.ts:
+    hooks:
+      afterOneFileWrite:
+        - prettier --write
+        - eslint --fix
+    plugins:
+      - add: '/* eslint-disable @typescript-eslint/no-explicit-any */'
+      - add: '/* eslint-disable @typescript-eslint/camelcase */'
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-resolvers'
+  src/fragmentTypes.json:
+    hooks:
+      afterOneFileWrite:
+        - prettier --write
+    plugins:
+      - fragment-matcher
+config:
+  scalars:
+    DateTime: Date
+    JSON: '{ [key: string]: any }'

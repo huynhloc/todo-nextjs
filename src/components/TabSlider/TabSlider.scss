@@ -1,0 +1,32 @@
+@import 'config.gutters';
+@import 'config.colors';
+
+.tab-headers-container {
+  display: flex;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid transparent;
+  transition: all 0.4s;
+  opacity: 0.24;
+
+  &:not(:first-child) {
+    margin-left: gutter(20);
+  }
+
+  &--selected {
+    opacity: 1;
+    transition: all 0.7s;
+    border-color: $purple;
+  }
+}
+
+.icon {
+  padding: gutter(8) gutter(12);
+  width: 3rem;
+  height: 3rem;
+}

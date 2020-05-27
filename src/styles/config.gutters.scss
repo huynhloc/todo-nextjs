@@ -1,0 +1,39 @@
+$gutterSizes: (
+  0: 0rem,
+  4: 0.4rem,
+  8: 0.8rem,
+  10: 1rem,
+  12: 1.2rem,
+  16: 1.6rem,
+  20: 2rem,
+  24: 2.4rem,
+  32: 3.2rem,
+  36: 3.6rem,
+  40: 4rem,
+  48: 4.8rem,
+  72: 7.2rem,
+  96: 9.6rem,
+  80: 8rem,
+  84: 8.4rem,
+  160: 16rem,
+  192: 19rem,
+  240: 24rem,
+  288: 28.8rem,
+);
+
+/**
+ * Accepts a number size and returns a gutter value in rems
+ * @param {Number} $size
+ * @return {String}
+ */
+@function gutter($size) {
+  @if (type-of($size) != 'number') {
+    @warn "You must supply a number to this function.";
+  }
+
+  @if (map-has-key($gutterSizes, $size)) {
+    @return map-get($gutterSizes, $size);
+  } @else {
+    @warn "$size doesn't exist in $sizes.";
+  }
+}
