@@ -107,7 +107,7 @@ export default ComponentWithIcon;
 }
 ```
 
-#### Graphql auto generated typescript
+<!-- #### Graphql auto generated typescript
 
 [graphql-codegen](https://graphql-code-generator.com/docs/getting-started/) is responsible for graphql type script generated.
 
@@ -135,4 +135,4 @@ export const GET_TYPE_DEF = gql`
 `;
 ```
 
-- You can [read more](https://www.apollographql.com/docs/react/data/local-state/) about local state and typeDefs here
+- You can [read more](https://www.apollographql.com/docs/react/data/local-state/) about local state and typeDefs here -->
